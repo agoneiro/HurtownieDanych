@@ -1,0 +1,2 @@
+DROP DATABASE CasinoManagementSystemDB_T1;
+DROP DATABASE CasinoManagementSystemDB_T2;
