@@ -209,7 +209,7 @@ def save_dataframes(data_dict, suffix):
             excel_dfs = ['Informacje_o_graczach', 'Katalog_promocji']
 
             if name in excel_dfs:
-                file_path = f"data/{name}_{suffix}.xlsx"
+                file_path = f"data/{name}_{suffix}.csv"
                 df.to_excel(file_path, index=False)
                 print(f"Zapisano: {file_path} (EXCEL) z {len(df):,} wierszami.")
             else:
