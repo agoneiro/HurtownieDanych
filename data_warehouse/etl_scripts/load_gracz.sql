@@ -19,8 +19,8 @@ BEGIN
     BULK INSERT #CSV_Gracz_Temp
     FROM 'C:\Projekty\data\Informacje_o_graczach_T1.csv' 
     WITH (
-        FIELDTERMINATOR = ';',
-        ROWTERMINATOR = '\n',
+        FIELDTERMINATOR = ',',
+        ROWTERMINATOR = '0x0a',
         FIRSTROW = 2,
         CODEPAGE = '65001'
     );

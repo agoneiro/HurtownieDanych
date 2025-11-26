@@ -1,3 +1,12 @@
+USE master;
+GO
+
+IF NOT EXISTS (SELECT name FROM sys.databases WHERE name = N'Casino_DataWarehouse')
+BEGIN
+    CREATE DATABASE [Casino_DataWarehouse];
+END
+GO
+
 USE Casino_DataWarehouse;
 GO
 
@@ -68,7 +77,7 @@ CREATE TABLE Pracownik (
     ID_pracownika INT PRIMARY KEY IDENTITY(1,1), 
     BK_Pracownika INT,
     Pelne_Imie VARCHAR(80),
-    Stanowisko VARCHAR(30) CHECK (Stanowisko IN ('Krupier', 'Kasjer', 'Menadżer', 'Inne')),
+    Stanowisko VARCHAR(30),
     IsCurrent BIT
 );
 

@@ -16,3 +16,5 @@ Zawiera skrypty SQL umożliwiające przygotowanie oraz wypełnienie relacyjnej b
 - **database_schema.sql** – skrypt tworzący strukturę bazy danych.  
 - **insert_bulk_t1.sql** – skrypt wstawiający dane z pierwszego snapshota.  
 - **insert_bulk_t2.sql** – skrypt wstawiający dane z drugiego snapshota.
+
+**UWAGA!** W skryptach wstawiających dane należy wstawić bezwzględne ścieżki do folderu `data/` zawierającego dane wygenerowane przez generator!
