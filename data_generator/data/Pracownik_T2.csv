@@ -1,0 +1,51 @@
+Id_pracownika;Imie;Nazwisko;Stanowisko;FK_Kasyno
+1;Albert;Kusyk;Starszy Kasjer;3
+2;Juliusz;Kuliberda;Menadżer;5
+3;Gustaw;Sasak;Starszy Kasjer;1
+4;Ada;Sankiewicz;Inne;3
+5;Fryderyk;Zachwieja;Starszy Kasjer;2
+6;Karina;Citko;Starszy Kasjer;3
+7;Dariusz;Miętka;Inne;2
+8;Szymon;Kolber;Inne;5
+9;Fryderyk;Kalarus;Starszy Kasjer;5
+10;Maciej;Błażejewicz;Starszy Kasjer;5
+11;Marcelina;Szpila;Menadżer;5
+12;Hubert;Zys;Menadżer;6
+13;Olgierd;Durlej;Starszy Kasjer;4
+14;Kaja;Jarmuła;Menadżer;4
+15;Kalina;Proch;Inne;4
+16;Leonard;Kapka;Menadżer;1
+17;Róża;Wojtalewicz;Krupier;6
+18;Tymon;Bulanda;Starszy Kasjer;3
+19;Melania;Gasek;Inne;6
+20;Hubert;Rubin;Menadżer;4
+21;Maciej;Barcz;Inne;3
+22;Maksymilian;Bogaczyk;Inne;5
+23;Witold;Lademann;Inne;2
+24;Borys;Gonsior;Krupier;1
+25;Elżbieta;Dorociak;Krupier;4
+26;Alan;Grygo;Inne;3
+27;Dorota;Szok;Inne;4
+28;Kornel;Frankowicz;Menadżer;2
+29;Dominik;Skrobot;Krupier;4
+30;Albert;Twardzik;Inne;1
+31;Dagmara;Sierżant;Starszy Kasjer;2
+32;Szymon;Bytner;Inne;5
+33;Andrzej;Hamera;Krupier;2
+34;Urszula;Krzystek;Krupier;1
+35;Przemysław;Kuzior;Starszy Kasjer;1
+36;Marcin;Pera;Menadżer;6
+37;Hubert;Ślimak;Menadżer;1
+38;Karol;Damps;Starszy Kasjer;6
+39;Malwina;Kieloch;Inne;6
+40;Eryk;Listwan;Inne;1
+41;Ernest;Teper;Inne;5
+42;Cyprian;Hanusiak;Krupier;2
+43;Monika;Siudek;Krupier;5
+44;Kornelia;Łakota;Krupier;5
+45;Apolonia;Giel;Inne;1
+46;Sonia;Pryk;Starszy Kasjer;3
+47;Mariusz;Kujawiak;Menadżer;2
+48;Piotr;Samiec;Inne;6
+49;Igor;Szyjka;Starszy Kasjer;2
+50;Tymon;Kleina;Starszy Kasjer;5
