@@ -1,6 +1,6 @@
 # Data Generator
 
-Moduł `data_generator` odpowiada za generowanie przykładowych danych do źródeł. Dane są tworzone na podstawie skryptu `data_generator.py`, a następnie zapisywane w folderze `data/`. Repozytorium zawiera już przykładowe wygenerowane pliki.
+Moduł `data_generator` odpowiada za generowanie przykładowych danych do źródeł. Dane są tworzone na podstawie skryptu `data_generator.py`, a następnie zapisywane w folderze `data/`.
 
 ---
 
