@@ -1,4 +1,4 @@
-USE CasinoManagementSystemDB_T2;
+USE CasinoManagementSystemDB;
 GO
 
 
@@ -12,13 +12,13 @@ CREATE TABLE Gracz (
 CREATE TABLE Gra (
     Id_gry INT PRIMARY KEY IDENTITY(1,1),
     Nazwa_gry VARCHAR(40),
-    Kategoria VARCHAR(20) CHECK (Kategoria IN ('Sto≥owa', 'Automat'))
+    Kategoria VARCHAR(20) CHECK (Kategoria IN ('Sto≈Çowa', 'Automat'))
 );
 
 
 CREATE TABLE Promocja (
     Id_promocji INT PRIMARY KEY IDENTITY(1,1), 
-    Typ_promocji VARCHAR(40) CHECK (Typ_promocji IN ('Okresowa', 'Powitalna', 'Sta≥a', 'Specjalna', 'Inna')),
+    Typ_promocji VARCHAR(40) CHECK (Typ_promocji IN ('Okresowa', 'Powitalna', 'Sta≈Ça', 'Specjalna', 'Inna')),
     Czy_aktywna BIT
 );
 
@@ -33,7 +33,7 @@ CREATE TABLE Pracownik (
     Id_pracownika INT PRIMARY KEY IDENTITY(1,1), 
     Imie VARCHAR(40),
     Nazwisko VARCHAR(40),
-    Stanowisko VARCHAR(30) CHECK (Stanowisko IN ('Krupier', 'Kasjer', 'Menadøer', 'Inne')),
+    Stanowisko VARCHAR(30) CHECK (Stanowisko IN ('Krupier', 'Kasjer', 'Menad≈ºer', 'Inne')),
     FK_Kasyno INT,
     FOREIGN KEY (FK_Kasyno) REFERENCES Kasyno(Id_kasyna)
 );

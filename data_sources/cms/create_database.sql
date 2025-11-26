@@ -1,2 +1,1 @@
-CREATE DATABASE CasinoManagementSystemDB_T1;
-CREATE DATABASE CasinoManagementSystemDB_T2;
+CREATE DATABASE CasinoManagementSystemDB;
