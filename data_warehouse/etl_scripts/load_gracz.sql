@@ -14,7 +14,7 @@ CREATE TABLE #CSV_Gracz_Temp (
 
 -- Wczytanie CSV
 BULK INSERT #CSV_Gracz_Temp
-FROM 'C:\Projekty\data\Informacje_o_graczach_T2.csv' 
+FROM 'C:\Projekty\data\Informacje_o_graczach_T1.csv' 
 WITH (
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '0x0a',
@@ -27,7 +27,6 @@ DECLARE @CurrentDate DATE = GETDATE();
 ;WITH SourceData AS (
     SELECT 
         sql.Id_gracza AS BK_gracza,
-        -- POPRAWKA 1: Używamy ISNULL do bezpiecznej konkatenacji
         CAST(ISNULL(csv.[Imię gracza], '') + ' ' + ISNULL(csv.[Nazwisko gracza], '') AS VARCHAR(80)) AS Pelne_Imie,
         LEFT(csv.[Płeć], 1) AS Plec,
         csv.[Miasto zamieszkania] AS Miasto,
@@ -41,7 +40,6 @@ DECLARE @CurrentDate DATE = GETDATE();
             ELSE '61+ lat' 
         END AS Kategoria_Wiekowa,
         
-        -- POPRAWKA 2: Używamy liczb całkowitych (DATEDIFF(MONTH) zwraca INT)
         CASE 
             WHEN DATEDIFF(MONTH, csv.[Data dołączenia], @CurrentDate) < 6 THEN 'Nowy' 
             WHEN DATEDIFF(MONTH, csv.[Data dołączenia], @CurrentDate) < 12 THEN 'Początkujący' 
@@ -51,7 +49,6 @@ DECLARE @CurrentDate DATE = GETDATE();
         END AS Staz_Czlonkostwa
 
     FROM CasinoManagementSystemDB.dbo.Gracz sql
-    -- UŻYWAMY INNER JOIN, ŻEBY POBRAĆ TYLKO GRACZY, KTÓRZY ISTNIEJĄ W OBU ŹRÓDŁACH
     INNER JOIN #CSV_Gracz_Temp csv ON sql.Id_gracza = csv.[Numer identyfikacyjny gracza]
 )
 

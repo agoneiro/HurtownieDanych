@@ -15,7 +15,7 @@ SELECT
     END AS Czy_Zakup
 FROM CasinoManagementSystemDB.dbo.Wizyta s
 LEFT JOIN Casino_DataWarehouse.dbo.Kasyno k ON s.FK_Kasyno = k.BK_Kasyna
-LEFT JOIN Casino_DataWarehouse.dbo.Gracz g ON s.FK_Gracz = g.BK_gracza AND g.IsCurrent = 1 --TODO poprawic BK w �r�dle w graczu (i zmienic na s.BK_Gracza)
+LEFT JOIN Casino_DataWarehouse.dbo.Gracz g ON s.FK_Gracz = g.BK_gracza AND g.IsCurrent = 1
 LEFT JOIN Casino_DataWarehouse.dbo.Data d_in ON CAST(s.Data_wejscia AS DATE) = d_in.PelnaData
 LEFT JOIN Casino_DataWarehouse.dbo.Data d_out ON CAST(s.Data_wyjscia AS DATE) = d_out.PelnaData
 LEFT JOIN Casino_DataWarehouse.dbo.Czas t_in ON DATEPART(HOUR, s.Data_wejscia) = t_in.Godzina 
