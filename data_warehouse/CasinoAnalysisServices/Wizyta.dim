@@ -1,0 +1,311 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c8ac9e71-07d0-484b-8a99-fd960bb5542e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Wizyta</ID>
+  <Name>Wizyta</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-732" scrolltop="-5969" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6181" y="11070" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Wizyta" left="-213" top="-21" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3471" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008f0d00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Wizyta" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-732</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-5969</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-213</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-21</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="156">
+            <Shape Id="ID Wizyty" Expanded="true">
+              <Attributes>
+                <Attribute Id="ID Wizyty" />
+                <Attribute Id="BK Wizyty" />
+                <Attribute Id="Czy Zakup" />
+                <Attribute Id="Dlugosc Wizyty" />
+                <Attribute Id="FK Czas Wejscia" />
+                <Attribute Id="FK Czas Wyjscia" />
+                <Attribute Id="FK Data Wejscia" />
+                <Attribute Id="FK Data Wyjscia" />
+                <Attribute Id="FK Gracz" />
+                <Attribute Id="FK Kasyno" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a8927be4-d8ed-4693-8057-2946e73ef071">
+    <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="d3e2b88a-1f89-4a98-a0f5-bbb71b7ac8ad">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="62295da1-8383-4a4e-8d0d-e5ff7a809122">
+      <ID>ID Wizyty</ID>
+      <Name>ID Wizyty</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="24811135-5768-4063-b695-ce8f8d69f2ad">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7802a5c5-5894-4e16-a2a4-1a8cbd3ea02c">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>ID_Wizyty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="bf327673-a6fa-4068-bcd5-c22cca6f3b1b">
+          <AttributeID>FK Kasyno</AttributeID>
+          <Name>FK Kasyno</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3264bc28-a14b-4979-91ff-c4b25508b91e">
+          <AttributeID>FK Data Wejscia</AttributeID>
+          <Name>FK Data Wejscia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b71a6d5e-b2eb-4f7a-a40b-6634367a6d49">
+          <AttributeID>FK Gracz</AttributeID>
+          <Name>FK Gracz</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f4db15f6-6ae4-4c40-aad1-696e87c386d4">
+          <AttributeID>FK Czas Wejscia</AttributeID>
+          <Name>FK Czas Wejscia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c74a982f-d572-45a7-8c23-2261bc0e968d">
+          <AttributeID>FK Data Wyjscia</AttributeID>
+          <Name>FK Data Wyjscia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5c8aa90a-5685-4568-ae6f-23a46463d138">
+          <AttributeID>FK Czas Wyjscia</AttributeID>
+          <Name>FK Czas Wyjscia</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d475331b-06ef-4bf9-809a-19d0408847d7">
+          <AttributeID>Dlugosc Wizyty</AttributeID>
+          <Name>Dlugosc Wizyty</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ec622b84-1207-4634-bbe5-58fefabf3dfb">
+          <AttributeID>Czy Zakup</AttributeID>
+          <Name>Czy Zakup</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4e524bec-b5ba-41f5-8d72-eeba68ea8bc6">
+          <AttributeID>BK Wizyty</AttributeID>
+          <Name>BK Wizyty</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="90adedf4-5fa7-42d8-a62b-78712c79a524">
+      <ID>FK Kasyno</ID>
+      <Name>FK Kasyno</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="77462a0e-b3e3-4f7e-9b79-6a2fe9fb4c0c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef65c579-7460-4468-b43d-b7067bcb749e">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>FK_Kasyno</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="30f4dc5e-fe9a-46d8-8bd5-5a7945174424">
+      <ID>FK Data Wejscia</ID>
+      <Name>FK Data Wejscia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ae836359-5078-463f-9c72-225a5f72ea48">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fafe05b9-dad2-42eb-9ecc-885aeda6859a">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>FK_Data_Wejscia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0dfa934b-6ee8-4bf2-8b9f-87c731b6c023">
+      <ID>FK Gracz</ID>
+      <Name>FK Gracz</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c4d23e2e-065b-44af-9dfc-535bcc97ce5c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f217bd34-6d35-4d69-bd4b-ed66a0fb0a6c">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>FK_Gracz</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fad74185-2e8a-4172-8f23-d5158dd00e8b">
+      <ID>FK Czas Wejscia</ID>
+      <Name>FK Czas Wejscia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f1bfc842-11af-45a0-bc21-729217d0a8f6">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="da481f98-b59f-4847-86c2-bf1aca23b27e">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>FK_Czas_Wejscia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c15d514a-a0c1-46e8-8a9e-acc0826fe889">
+      <ID>FK Data Wyjscia</ID>
+      <Name>FK Data Wyjscia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="94583757-5fe8-42e1-b2be-3e7666eab6bd">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c865c3d-c1a8-4d6e-a955-9b7405d8db28">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>FK_Data_Wyjscia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="af746d2b-0332-4ce3-9019-1d2fa54c2c35">
+      <ID>FK Czas Wyjscia</ID>
+      <Name>FK Czas Wyjscia</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0d9eb90c-d68e-4e0e-8f59-ae7e5d810459">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="daade491-c7bc-4a76-a9dc-9e4daa54029f">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>FK_Czas_Wyjscia</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c2666502-b6e1-44f0-aec5-a129799abf6e">
+      <ID>Dlugosc Wizyty</ID>
+      <Name>Dlugosc Wizyty</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c5dab565-06e0-40c3-9596-29247fb13635">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7857488e-89c3-4e16-9c7d-67438bce2318">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>Dlugosc_Wizyty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aef4aaf3-b08c-4515-b667-63a8c1ef98ad">
+      <ID>Czy Zakup</ID>
+      <Name>Czy Zakup</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7401218c-6703-4d48-b830-4115f039d29a">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b819930-88f9-4e9e-98ba-19c5ac891438">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>Czy_Zakup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d3b9fdb7-40d6-415e-85b6-4d685d217422">
+      <ID>BK Wizyty</ID>
+      <Name>BK Wizyty</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6570c9f7-5159-4ddc-b1cd-1b785fbf6e73">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54c9ad73-ab60-4b5f-addb-a5f520ceae6b">
+            <TableID>dbo_Wizyta</TableID>
+            <ColumnID>BK_Wizyty</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

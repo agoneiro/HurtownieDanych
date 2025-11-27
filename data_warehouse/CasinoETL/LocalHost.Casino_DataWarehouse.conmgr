@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="LocalHost.Casino_DataWarehouse"
+  DTS:DTSID="{E71928CC-725B-463F-84A1-D0CAB6659B19}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost\MSSQLSERVER2;Initial Catalog=Casino_DataWarehouse;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-CasinoETL-{E71928CC-725B-463F-84A1-D0CAB6659B19}LocalHost.Casino_DataWarehouse;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
