@@ -1,21 +1,63 @@
 -- 1.1. Czy gracze, którzy korzystają z promocji, spędzają więcej czasu w kasynie?
-SELECT
-{
-    [Measures].[Liczba wizyt],
-    [Measures].[SredniCzasTrwaniaWizyt]
-}
-ON COLUMNS,
-NON EMPTY ORDER(
-    [Gracz].[Status Czlonkostwa].Children
-    [Measures].[SredniCzasTrwaniaWizyt],
-    BDESC
-)
-ON ROWS 
-FROM [Casino Data Warehouse]
-WHERE ( [Promocja].[Typ Promocji].[All] )
+WITH 
+SET [WszystkiePromocje] AS 
+    [Promocja].[Typ Promocji].Children
+MEMBER [Measures].[Czas Z Promocja] AS 
+    Aggregate([WszystkiePromocje], [Measures].[Laczny czas trwania wizyt])
+MEMBER [Measures].[Liczba Wizyt Z Promocja] AS 
+    Aggregate([WszystkiePromocje], [Measures].[Liczba wizyt])
+MEMBER [Measures].[Czas Bez Promocji] AS 
+    ([Promocja].[Typ Promocji].[All], [Measures].[Laczny czas trwania wizyt]) - [Measures].[Czas Z Promocja]
+MEMBER [Measures].[Liczba Wizyt Bez Promocji] AS 
+    ([Promocja].[Typ Promocji].[All], [Measures].[Liczba wizyt]) - [Measures].[Liczba Wizyt Z Promocja]
+MEMBER [Measures].[Srednia - Z Promocja] AS 
+    IIF(
+        [Measures].[Liczba Wizyt Z Promocja] = 0, 
+        NULL, 
+        [Measures].[Czas Z Promocja] / [Measures].[Liczba Wizyt Z Promocja])
+MEMBER [Measures].[Srednia - Bez Promocji] AS 
+    IIF(
+        [Measures].[Liczba Wizyt Bez Promocji] = 0, 
+        NULL, 
+        [Measures].[Czas Bez Promocji] / [Measures].[Liczba Wizyt Bez Promocji])
+SELECT 
+{ 
+    [Measures].[Srednia - Bez Promocji], 
+    [Measures].[Srednia - Z Promocja] 
+} ON COLUMNS,
+{ 
+    [Promocja].[Typ Promocji].[All] 
+} 
+ON ROWS FROM [Casino Data Warehouse]
+
 
 -- 1.2. Czy dłuższe wizyty wiążą się z większą liczbą sesji gier?
-TODO
+WITH 
+MEMBER [Measures].[Srednia Gier - Ogolem] AS 
+    IIF(
+        [Measures].[Liczba wizyt] = 0, 
+        NULL, 
+        [Measures].[Liczba sesji gier] / [Measures].[Liczba wizyt]
+    )
+MEMBER [Measures].[Srednia Gier - Top 100 Czas] AS 
+    AVG(
+        TopCount(
+            [Wizyta].[ID Wizyty].Children, 
+            100, 
+            [Measures].[Laczny czas trwania wizyt]
+        ), 
+        [Measures].[Liczba sesji gier]
+    )
+SELECT 
+{ 
+    [Measures].[Srednia Gier - Ogolem], 
+    [Measures].[Srednia Gier - Top 100 Czas] 
+} ON COLUMNS,
+{ 
+    [Wizyta].[ID Wizyty].[All] 
+} 
+ON ROWS FROM [Casino Data Warehouse]
+
 
 -- 1.3. Jak status członkostwa gracza wpływa na czas wizyty?
 SELECT
@@ -28,8 +70,8 @@ ON COLUMNS,
 }
 ON ROWS FROM [Casino Data Warehouse]
 
--- 1.4. Czy gracze, którzy dokonują zakupów w trakcie wizyty, spędzają więcej czasu w
-kasynie?
+
+-- 1.4. Czy gracze, którzy dokonują zakupów w trakcie wizyty, spędzają więcej czasu w kasynie?
 SELECT
 {
     [Measures].[SredniCzasTrwaniaWizyt]
@@ -52,6 +94,7 @@ ON COLUMNS,
 }
 ON ROWS FROM [Casino Data Warehouse]
 
+
 -- 2.1. Jak długo średnio trwa sesja gry, w zależności od typu gry?
 SELECT 
 {
@@ -63,16 +106,26 @@ ON COLUMNS,
 }
 ON ROWS FROM [Casino Data Warehouse]
 
+
 -- 2.2. Jakie gry są najczęściej wybierane przez graczy w trakcie jednej wizyty?
+WITH MEMBER [Measures].[Srednia Sesji Na Wizyte] AS
+    IIF(
+        [Measures].[Liczba wizyt] = 0, 
+        NULL,
+        [Measures].[Liczba sesji gier] / [Measures].[Liczba wizyt]
+    )
 SELECT 
 {
-    [Measures].[Liczba sesji gier]
+    [Measures].[Liczba wizyt], 
+    [Measures].[Liczba sesji gier],
+    [Measures].[Srednia Sesji Na Wizyte]
 }
 ON COLUMNS,
 {
     [Gra].[Nazwa Gry].Children
 }
 ON ROWS FROM [Casino Data Warehouse]
+
 
 -- 2.3. Czy obecność wybranych pracowników wpływa na długość sesji gry?
 SELECT
@@ -87,6 +140,11 @@ NON EMPTY TopCount(
     [Measures].[SredniCzasTrwaniaSesji]
 )
 ON ROWS FROM [Casino Data Warehouse]
+WHERE
+{
+    [Pracownik].[Is Current].[True]
+}
+
 
 -- 2.4. Czy średnia ilość gier zależy od lokalizacji kasyna?
 WITH MEMBER [Measures].[SredniaLiczbaGierNaWizyte] AS
@@ -109,6 +167,7 @@ ORDER(
 )
 ON ROWS FROM [Casino Data Warehouse]
 
+
 -- 2.5. Jak różne typy promocji wpływają na liczbę sesji gier w trakcie wizyty?
 WITH MEMBER [Measures].[SredniaLiczbaGierNaWizyte] AS
     IIF(
@@ -129,3 +188,22 @@ ORDER(
     BDESC
 )
 ON ROWS FROM [Casino Data Warehouse]
+
+
+-- 3.1. Którzy gracze mają najdłuższy średni czas wizyty w Warszawie? (Zastosowanie WHERE)
+SELECT 
+{
+    [Measures].[Liczba sesji gier],
+    [Measures].[SredniCzasTrwaniaWizyt]
+}
+ON COLUMNS,
+TopCount(
+    [Gracz].[Pelne Imie].Children,
+    10,
+    [Measures].[Sredni Czas Na Sesje]
+)
+ON ROWS 
+FROM [Casino Data Warehouse]
+WHERE ( 
+    [Kasyno].[Miasto].[Warszawa] 
+)
