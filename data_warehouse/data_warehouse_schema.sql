@@ -90,7 +90,7 @@ CREATE TABLE Wizyta (
     FK_Czas_Wyjscia INT FOREIGN KEY REFERENCES Czas(Id_czasu),
     FK_Gracz INT FOREIGN KEY REFERENCES Gracz(Id_gracza),
     FK_Kasyno INT FOREIGN KEY REFERENCES Kasyno(Id_kasyna),
-    Dlugosc_Wizyty INT,
+    Dlugosc_Wizyty BIGINT,
     Czy_Zakup BIT NOT NULL DEFAULT 0
 );
 
@@ -108,7 +108,7 @@ CREATE TABLE Sesja_Gry (
     FK_Data_Zakonczenia INT FOREIGN KEY REFERENCES Data(Id_daty),
     FK_Czas_Zakonczenia INT FOREIGN KEY REFERENCES Czas(Id_czasu),
 
-    Dlugosc_Sesji INT,
+    Dlugosc_Sesji BIGINT,
     Bilans_Gracza INT
 );
 
