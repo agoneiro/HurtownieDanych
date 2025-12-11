@@ -72,7 +72,7 @@
           <ConfigurationSetting>
             <Id>Casino Data Warehouse</Id>
             <Name>Casino Data Warehouse</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost\MSSQLSERVER2;Integrated Security=SSPI;Initial Catalog=Casino_DataWarehouse</Value>
+            <Value xsi:type="xsd:string">Provider=SQLOLEDB.1;Data Source=localhost\MSSQLSERVER2;Integrated Security=SSPI;Initial Catalog=Casino_DataWarehouse</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

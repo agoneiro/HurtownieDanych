@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="af2ee860-9648-4956-9c93-5d78cf37212d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="061209bf-de61-4d16-b858-acea1a23ad57" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Kasyno</ID>
   <Name>Kasyno</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -55,7 +55,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-1</Value>
+      <Value>0</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
@@ -68,37 +68,38 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a3cbd9ce-ce39-4781-82b8-f111935908bd">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1c9b2e18-cdec-4aa7-bd23-5cdb6bfe8a65">
     <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="99f2a672-7c4e-493b-9cdf-63a854aece7f">
+  <ErrorConfiguration dwd:design-time-name="d29e4ee4-8383-4f19-b3b7-5c1c66d4f616">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="a0854f94-2b96-4ae3-a1f9-4904e0e3fca7">
+    <Attribute dwd:design-time-name="c49dda1b-a8bd-4e4c-836a-157c6a42a9f2">
       <ID>ID Kasyna</ID>
       <Name>ID Kasyna</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7f840979-6d5f-4d8d-ae6f-3aac08e9466e">
+        <KeyColumn dwd:design-time-name="297f2283-acbd-4934-a728-7b19cd237661">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcb6825b-bbe6-49e8-9aa2-1c4d995d2e45">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="331b5acf-71b0-45db-b6ce-a6ca15ed9f4d">
             <TableID>dbo_Kasyno</TableID>
             <ColumnID>ID_kasyna</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="0e0a1742-9ce1-4043-99e5-1f1854a87f26">
+        <AttributeRelationship dwd:design-time-name="7d1ab244-5274-4ee6-8900-18d91fcb2926">
           <AttributeID>Miasto</AttributeID>
           <Name>Miasto</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4817814e-e284-404a-b212-523d64cc797b">
+        <AttributeRelationship dwd:design-time-name="7729f78f-3ad9-42a2-a63f-7510109edcaf">
           <AttributeID>BK Kasyna</AttributeID>
           <Name>BK Kasyna</Name>
         </AttributeRelationship>
@@ -107,14 +108,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d0e3fbd4-bff6-4b31-98d7-501cf1ebe930">
+    <Attribute dwd:design-time-name="a87e4688-28a7-44ce-b135-61e2bb83a2f2">
       <ID>Miasto</ID>
       <Name>Miasto</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f26dd711-9e5f-4f77-b195-67f0bc9a7ff3">
+        <KeyColumn dwd:design-time-name="c9e523c7-04f5-4077-a922-061bbead7bff">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7cc26edf-486d-4019-bd1a-3758680f4aa7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="92137397-ba68-4970-8439-5f4ced43ad5c">
             <TableID>dbo_Kasyno</TableID>
             <ColumnID>Miasto</ColumnID>
           </Source>
@@ -123,13 +124,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8be167de-c291-44bf-9539-c16ff8e5e889">
+    <Attribute dwd:design-time-name="7eed5847-a0a5-427e-9058-868663f3c861">
       <ID>BK Kasyna</ID>
       <Name>BK Kasyna</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="76991e0d-a743-4aa9-b28a-50e1a6480ee5">
+        <KeyColumn dwd:design-time-name="c988d077-36d6-4ed3-af40-4013135012a0">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="35e3ce0b-be6c-4dd3-b5de-6bbf19d7bfd5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c697f049-1d4a-4da8-a4a3-49f5667b62e5">
             <TableID>dbo_Kasyno</TableID>
             <ColumnID>BK_Kasyna</ColumnID>
           </Source>

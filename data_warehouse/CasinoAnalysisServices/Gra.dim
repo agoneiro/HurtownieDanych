@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="413a2d5d-f158-49e0-82d0-8de9605d3eb0" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f50cb8e7-7f61-4adf-b14e-eabed4ca7075" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Gra</ID>
   <Name>Gra</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,37 +68,38 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="eb00eaa7-59f7-4ee2-a965-bf8fda337032">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d421f334-df3b-4ab0-a885-19fa6ba0cd9c">
     <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="c386fa40-cc89-45fb-802e-961e057c6e30">
+  <ErrorConfiguration dwd:design-time-name="33a038bc-0cfb-4156-b53c-aabc0202d1a2">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="412fbaa5-2ea0-4d9e-bbf0-7b485f4f4356">
+    <Attribute dwd:design-time-name="d24ec250-2b86-47f8-b39d-d087536669a7">
       <ID>ID Gry</ID>
       <Name>ID Gry</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b076b504-be94-4001-a1aa-9c3bce3d75e3">
+        <KeyColumn dwd:design-time-name="963060cb-b096-4bdc-9afa-58896c908f7e">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4d566415-9ba1-4911-ac40-4325386f30ef">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d8f610b6-fced-456c-9642-3917c8936f88">
             <TableID>dbo_Gra</TableID>
             <ColumnID>ID_gry</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="401a0422-3d47-4c5c-b2a7-849fb17a9a3c">
+        <AttributeRelationship dwd:design-time-name="60394b62-95f1-422e-a0a2-8715525027ce">
           <AttributeID>Nazwa Gry</AttributeID>
           <Name>Nazwa Gry</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9c96841a-f165-47f9-beda-3009bd338ba9">
+        <AttributeRelationship dwd:design-time-name="6e0193e5-35e6-4646-b942-cc7aac37ab27">
           <AttributeID>Kategoria</AttributeID>
           <Name>Kategoria</Name>
         </AttributeRelationship>
@@ -107,14 +108,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="616f3b2f-f32b-4f36-a0ec-c5c56d8afe20">
+    <Attribute dwd:design-time-name="42b44166-f97f-4c11-b7bc-1b79d4b898a8">
       <ID>Nazwa Gry</ID>
       <Name>Nazwa Gry</Name>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="08d36e9e-0e47-43e1-bbba-1933f635dc7e">
+        <KeyColumn dwd:design-time-name="22e9c7a5-e682-4b4f-97ac-585908463b48">
           <DataType>WChar</DataType>
           <DataSize>150</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6b328822-dc2f-434d-bada-a1616eca10ca">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02aa0a3d-7665-4385-8b37-3137c3bc7345">
             <TableID>dbo_Gra</TableID>
             <ColumnID>Nazwa_gry</ColumnID>
           </Source>
@@ -123,14 +125,15 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e7140b3d-aec3-40f8-a481-96307ae81217">
+    <Attribute dwd:design-time-name="fd305a13-ef09-4b3a-8cd5-7784d330a6f5">
       <ID>Kategoria</ID>
       <Name>Kategoria</Name>
+      <EstimatedCount>2</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ef93992a-5c26-4856-b09b-08bb3cbb331e">
+        <KeyColumn dwd:design-time-name="3241bf21-4108-4a61-94d6-2f2ec9e436c0">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4e3560a9-4eec-4763-b21d-ca8f7843b35a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eecef6ae-8f8e-4da6-bf2c-1a9a96440321">
             <TableID>dbo_Gra</TableID>
             <ColumnID>Kategoria</ColumnID>
           </Source>
