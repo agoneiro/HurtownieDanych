@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c8ac9e71-07d0-484b-8a99-fd960bb5542e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="29b5d1bb-5104-488f-9801-32ae01ca0aca" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Wizyta</ID>
   <Name>Wizyta</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -92,65 +92,66 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a8927be4-d8ed-4693-8057-2946e73ef071">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0bb7bb16-ca0c-436a-be13-ba874cab55bc">
     <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="d3e2b88a-1f89-4a98-a0f5-bbb71b7ac8ad">
+  <ErrorConfiguration dwd:design-time-name="a223a883-b8c4-4550-8dc4-f23a1d59711b">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="62295da1-8383-4a4e-8d0d-e5ff7a809122">
+    <Attribute dwd:design-time-name="6f9cd6e4-ab4d-4331-81df-47de47569711">
       <ID>ID Wizyty</ID>
       <Name>ID Wizyty</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>301880</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="24811135-5768-4063-b695-ce8f8d69f2ad">
+        <KeyColumn dwd:design-time-name="4c6e0927-c679-4fcd-ac07-39156b494582">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7802a5c5-5894-4e16-a2a4-1a8cbd3ea02c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b52e7a2-581d-4883-b626-e0bceb6ceabb">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>ID_Wizyty</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="bf327673-a6fa-4068-bcd5-c22cca6f3b1b">
+        <AttributeRelationship dwd:design-time-name="a92244ae-e50c-4fef-b580-faf83f7e1bb0">
           <AttributeID>FK Kasyno</AttributeID>
           <Name>FK Kasyno</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="3264bc28-a14b-4979-91ff-c4b25508b91e">
+        <AttributeRelationship dwd:design-time-name="9e2c00d4-b764-4056-b55e-281f3ab340d9">
           <AttributeID>FK Data Wejscia</AttributeID>
           <Name>FK Data Wejscia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b71a6d5e-b2eb-4f7a-a40b-6634367a6d49">
+        <AttributeRelationship dwd:design-time-name="0f93e85e-387d-40cc-b31e-bcbf71c5d787">
           <AttributeID>FK Gracz</AttributeID>
           <Name>FK Gracz</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f4db15f6-6ae4-4c40-aad1-696e87c386d4">
+        <AttributeRelationship dwd:design-time-name="08be25e5-c97b-428a-a06b-d6142d9f1adf">
           <AttributeID>FK Czas Wejscia</AttributeID>
           <Name>FK Czas Wejscia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c74a982f-d572-45a7-8c23-2261bc0e968d">
+        <AttributeRelationship dwd:design-time-name="ae0d6843-1ec1-4edc-9818-94d01e175328">
           <AttributeID>FK Data Wyjscia</AttributeID>
           <Name>FK Data Wyjscia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5c8aa90a-5685-4568-ae6f-23a46463d138">
+        <AttributeRelationship dwd:design-time-name="80ffbbed-3e15-41e1-b2f3-7816c031843b">
           <AttributeID>FK Czas Wyjscia</AttributeID>
           <Name>FK Czas Wyjscia</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d475331b-06ef-4bf9-809a-19d0408847d7">
+        <AttributeRelationship dwd:design-time-name="bc7da77a-7a0b-4f14-bab7-431eb0ce8439">
           <AttributeID>Dlugosc Wizyty</AttributeID>
           <Name>Dlugosc Wizyty</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ec622b84-1207-4634-bbe5-58fefabf3dfb">
+        <AttributeRelationship dwd:design-time-name="3f17f73f-7a93-4240-9d4e-173bc29b3901">
           <AttributeID>Czy Zakup</AttributeID>
           <Name>Czy Zakup</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="4e524bec-b5ba-41f5-8d72-eeba68ea8bc6">
+        <AttributeRelationship dwd:design-time-name="a9268035-d1a2-4458-a6a5-26ac12c203d9">
           <AttributeID>BK Wizyty</AttributeID>
           <Name>BK Wizyty</Name>
         </AttributeRelationship>
@@ -159,13 +160,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="90adedf4-5fa7-42d8-a62b-78712c79a524">
+    <Attribute dwd:design-time-name="7c839538-ad76-45b7-9c2d-c29f97b1e28b">
       <ID>FK Kasyno</ID>
       <Name>FK Kasyno</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="77462a0e-b3e3-4f7e-9b79-6a2fe9fb4c0c">
+        <KeyColumn dwd:design-time-name="5e1b848c-c53f-44ec-b9b6-f4b26a230232">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef65c579-7460-4468-b43d-b7067bcb749e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8450594b-a4f1-4bdc-b9c7-c22957342130">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>FK_Kasyno</ColumnID>
           </Source>
@@ -176,13 +177,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="30f4dc5e-fe9a-46d8-8bd5-5a7945174424">
+    <Attribute dwd:design-time-name="c3ba141b-c27b-40a1-be3b-5d1f64706471">
       <ID>FK Data Wejscia</ID>
       <Name>FK Data Wejscia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ae836359-5078-463f-9c72-225a5f72ea48">
+        <KeyColumn dwd:design-time-name="77eef97b-fc88-4943-8355-ee03be4ae7e0">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="fafe05b9-dad2-42eb-9ecc-885aeda6859a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="076f324f-fed8-45ea-9067-8c3769ffe2f6">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>FK_Data_Wejscia</ColumnID>
           </Source>
@@ -193,13 +194,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0dfa934b-6ee8-4bf2-8b9f-87c731b6c023">
+    <Attribute dwd:design-time-name="1cb1c5a2-7ede-4b4a-b6a7-9266c03626e5">
       <ID>FK Gracz</ID>
       <Name>FK Gracz</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c4d23e2e-065b-44af-9dfc-535bcc97ce5c">
+        <KeyColumn dwd:design-time-name="5de82860-8f13-4b06-b61f-782420652e9b">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f217bd34-6d35-4d69-bd4b-ed66a0fb0a6c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="75be0b26-31b3-495c-8bea-d2f2591cea4b">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>FK_Gracz</ColumnID>
           </Source>
@@ -210,13 +211,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fad74185-2e8a-4172-8f23-d5158dd00e8b">
+    <Attribute dwd:design-time-name="842b6768-d161-44f2-81b9-2e65cb9def43">
       <ID>FK Czas Wejscia</ID>
       <Name>FK Czas Wejscia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f1bfc842-11af-45a0-bc21-729217d0a8f6">
+        <KeyColumn dwd:design-time-name="d539aa8d-210b-4722-b37f-a12746861b72">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="da481f98-b59f-4847-86c2-bf1aca23b27e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="16cc4782-fd36-42c7-8eca-ea9c434bb591">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>FK_Czas_Wejscia</ColumnID>
           </Source>
@@ -227,13 +228,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c15d514a-a0c1-46e8-8a9e-acc0826fe889">
+    <Attribute dwd:design-time-name="a80febe7-b174-4556-b593-15b64ed1d6a9">
       <ID>FK Data Wyjscia</ID>
       <Name>FK Data Wyjscia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="94583757-5fe8-42e1-b2be-3e7666eab6bd">
+        <KeyColumn dwd:design-time-name="2f1d9191-eda6-4af1-b5b9-9ae8a25776e3">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="6c865c3d-c1a8-4d6e-a955-9b7405d8db28">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eccb6df9-2bcb-43bd-a582-e345ab7cce7a">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>FK_Data_Wyjscia</ColumnID>
           </Source>
@@ -244,13 +245,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="af746d2b-0332-4ce3-9019-1d2fa54c2c35">
+    <Attribute dwd:design-time-name="66b7dd90-c436-421f-9bcf-38ec3666f282">
       <ID>FK Czas Wyjscia</ID>
       <Name>FK Czas Wyjscia</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0d9eb90c-d68e-4e0e-8f59-ae7e5d810459">
+        <KeyColumn dwd:design-time-name="5a57cdda-5eb4-4b07-abf9-57ec24dae821">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="daade491-c7bc-4a76-a9dc-9e4daa54029f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="109dabd1-3ce5-4f27-a910-97ab9a38d8c7">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>FK_Czas_Wyjscia</ColumnID>
           </Source>
@@ -261,13 +262,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c2666502-b6e1-44f0-aec5-a129799abf6e">
+    <Attribute dwd:design-time-name="2e52c3c4-4ec0-4654-8881-3236060670f6">
       <ID>Dlugosc Wizyty</ID>
       <Name>Dlugosc Wizyty</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c5dab565-06e0-40c3-9596-29247fb13635">
+        <KeyColumn dwd:design-time-name="2d271f66-16ee-4f3c-aef0-a618c80f9a99">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7857488e-89c3-4e16-9c7d-67438bce2318">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e8e01d8b-4a4a-42bd-bdb3-e26263ea480a">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>Dlugosc_Wizyty</ColumnID>
           </Source>
@@ -276,13 +277,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="aef4aaf3-b08c-4515-b667-63a8c1ef98ad">
+    <Attribute dwd:design-time-name="7cc32509-a77d-4146-a863-e6fd10a5af1b">
       <ID>Czy Zakup</ID>
       <Name>Czy Zakup</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="7401218c-6703-4d48-b830-4115f039d29a">
+        <KeyColumn dwd:design-time-name="5450b7fa-832b-4b78-b7ba-90001299d5b6">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b819930-88f9-4e9e-98ba-19c5ac891438">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d432de5e-22ae-4ca3-ab72-21fb2acbd691">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>Czy_Zakup</ColumnID>
           </Source>
@@ -291,13 +292,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d3b9fdb7-40d6-415e-85b6-4d685d217422">
+    <Attribute dwd:design-time-name="39ba71be-8410-4c02-993c-6c906d662f08">
       <ID>BK Wizyty</ID>
       <Name>BK Wizyty</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6570c9f7-5159-4ddc-b1cd-1b785fbf6e73">
+        <KeyColumn dwd:design-time-name="74f5720b-ac9e-48cb-b0be-4e5938e93c18">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="54c9ad73-ab60-4b5f-addb-a5f520ceae6b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="25809190-77aa-4557-9f2f-3ad9a2542ae8">
             <TableID>dbo_Wizyta</TableID>
             <ColumnID>BK_Wizyty</ColumnID>
           </Source>

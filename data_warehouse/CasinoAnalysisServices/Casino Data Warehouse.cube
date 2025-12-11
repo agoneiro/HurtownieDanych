@@ -1,4 +1,4 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fa869f66-14fc-4d82-85e8-fc65525c4886" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="829bbbae-d4ac-48a6-ae99-2899a0ddbbb6" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Casino Data Warehouse</ID>
   <Name>Casino Data Warehouse</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="38" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1243" scrolltop="5032" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="24977" y="16320" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1243" scrolltop="5032" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="76" x="24299" y="15600" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01ee00009001b0300100065461686f6d61" />
             </font>
@@ -116,7 +116,7 @@
             </layoutobject>
             <shape groupshapeid="0" groupnode="0" />
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3258" top="4574" logicalid="32" controlid="17" masterid="0" hint1="0" hint2="0" width="3941" height="13819" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3258" top="4574" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="3941" height="13819" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -136,7 +136,7 @@
               <point x="3558" y="4874" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3516" top="4337" logicalid="33" controlid="18" masterid="0" hint1="0" hint2="0" width="2231" height="1182" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3516" top="4337" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="2231" height="1182" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -156,7 +156,7 @@
               <point x="3816" y="4637" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="450" top="4574" logicalid="34" controlid="19" masterid="0" hint1="0" hint2="0" width="799" height="13819" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="450" top="4574" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="799" height="13819" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -176,7 +176,7 @@
               <point x="808" y="4874" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3516" top="3787" logicalid="35" controlid="20" masterid="0" hint1="0" hint2="0" width="2231" height="1182" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3516" top="3787" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="2231" height="1182" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -196,7 +196,7 @@
               <point x="3816" y="4087" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-42" top="4574" logicalid="36" controlid="21" masterid="0" hint1="0" hint2="0" width="875" height="1712" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-42" top="4574" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="875" height="1712" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -216,7 +216,7 @@
               <point x="258" y="4874" />
             </connector>
           </ddscontrol>
-          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2708" top="4574" logicalid="37" controlid="22" masterid="0" hint1="0" hint2="0" width="3941" height="13819" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2708" top="4574" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="3941" height="13819" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobj>
                 <polyline endtypedst="6" endtypesrc="3" usercolor="16448250" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -275,561 +275,575 @@
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
-    <Dimension dwd:design-time-name="3d034bbf-ea4b-4e27-8e2e-ab6090b5d09c">
+    <Dimension dwd:design-time-name="cb4e0314-e882-4725-8179-c7b960e405cb">
       <ID>Wizyta</ID>
       <Name>Wizyta</Name>
       <DimensionID>Wizyta</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="68530f77-a218-458b-b3c7-b4b21d0833b8">
+        <Attribute dwd:design-time-name="50b16144-832a-4a2b-8b8f-8f1a5b25adeb">
           <AttributeID>ID Wizyty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ca8befec-2465-4c96-ac7c-fae0a9c57390">
+        <Attribute dwd:design-time-name="0a8defa7-3a72-41ba-b61a-4d3315e50004">
           <AttributeID>FK Kasyno</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5922fa0e-1fbc-4bcd-b20a-50cc1a45238d">
+        <Attribute dwd:design-time-name="cdc8314f-3068-4315-a922-a3c642b1de72">
           <AttributeID>FK Data Wejscia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6c63fd46-9665-4e95-9a1f-4bd28b0d03c0">
+        <Attribute dwd:design-time-name="310d9dc9-85e6-4571-baa8-27e429aee48a">
           <AttributeID>FK Gracz</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2f1c11f1-4972-4fc2-906e-0610c4439378">
+        <Attribute dwd:design-time-name="c99edbbc-eb5a-433a-8f77-4b528d8efbe4">
           <AttributeID>FK Czas Wejscia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4104c00a-e4c2-4388-9da8-455a56dc0350">
+        <Attribute dwd:design-time-name="5f53acd6-a0f7-4148-9d18-a6c6b69c2941">
           <AttributeID>FK Data Wyjscia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="74b84428-c6d2-4fbd-9a11-f0376e38f6b8">
+        <Attribute dwd:design-time-name="efb29060-42b2-4c9f-9fc8-43ca66e780c8">
           <AttributeID>FK Czas Wyjscia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3491d0b8-c644-4b56-b02f-27536dd1a9d5">
+        <Attribute dwd:design-time-name="9511afc3-b358-42a6-b65c-0daf84a6c344">
           <AttributeID>Dlugosc Wizyty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="949226af-4b92-49d3-b578-20ccc2dc1bf7">
+        <Attribute dwd:design-time-name="dab7a1bc-56e0-48d9-aab4-3034e19cfc94">
           <AttributeID>Czy Zakup</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c5efd83b-d402-46a6-a885-2842cb0fd382">
+        <Attribute dwd:design-time-name="7d538ccd-29c4-4f62-bf7c-b5309e3b808b">
           <AttributeID>BK Wizyty</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="3693a3ff-7fb5-45ae-a407-d1b10483afaf">
+    <Dimension dwd:design-time-name="97ae4ee4-7023-40c2-9ced-fcd9de262610">
       <ID>Data Zakonczenia</ID>
       <Name>Data Zakonczenia</Name>
       <DimensionID>Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="0395fe0b-8837-4d2d-8aa3-fd454426bdd1">
+        <Attribute dwd:design-time-name="d6e5993f-2097-4fba-be4c-fc0d55bf21ba">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="378ceda5-6c48-4f47-b5e1-fc2e187495ed">
+        <Attribute dwd:design-time-name="63d8b8e3-51b0-4fd2-971b-940f7b624f5b">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="27f954cf-5159-4e4d-8886-fff1e0c03126">
+        <Attribute dwd:design-time-name="b0b15a4b-4248-42ad-a4ee-3945d290a92d">
           <AttributeID>Nazwa Miesiaca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="43800f00-c691-4847-a38b-a43516289cd0">
+        <Attribute dwd:design-time-name="84a70bca-d9dc-4094-a566-2fd50ea7fc23">
           <AttributeID>Pelna Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="74cbacd6-c9d9-4a79-9583-d0f0f59e587f">
+        <Attribute dwd:design-time-name="a28028d5-6d85-4c87-84d1-5d3330304a97">
           <AttributeID>Nazwa Dnia Tygodnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="02d00c63-f49f-4266-b14b-617e93a5a4b6">
+        <Attribute dwd:design-time-name="6b6fa58d-af6f-45df-9d22-dce6767156e6">
           <AttributeID>Czy Weekend</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="eba215da-0e99-4d38-9484-58e42831d6f5">
+        <Attribute dwd:design-time-name="4679c4a9-94c5-4df7-a924-ece610a802b0">
           <AttributeID>Miesiac</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="b1eb34a7-c650-4489-99d8-1f2641c74ec0">
+        <Attribute dwd:design-time-name="5f5b2f9c-8365-42ec-9ba0-3b6b0acb8c98">
           <AttributeID>Dzien Tygodnia</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="0a9d4fea-050d-47fd-b93e-ece119a277ad">
+        <Hierarchy dwd:design-time-name="e63f01c0-df45-4463-9d5a-d104eaff25b5">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="bc49c673-2b77-438a-8736-206556af232e">
+    <Dimension dwd:design-time-name="6486eb99-ef1c-4443-916e-f7d4bf1a327d">
       <ID>Pracownik</ID>
       <Name>Pracownik</Name>
       <DimensionID>Pracownik</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="b3b00631-5cec-4f65-88d2-1f26a8dd31a6">
+        <Attribute dwd:design-time-name="be862fa1-53cc-4abf-a0ff-3504932029b2">
           <AttributeID>ID Pracownika</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="de186205-5e2f-4420-99a8-1d4db23d022b">
+        <Attribute dwd:design-time-name="665a2df3-fe8d-47f1-9db0-440323c17316">
           <AttributeID>Pelne Imie</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1bc338bf-cb33-4b05-a3c6-734558af1593">
+        <Attribute dwd:design-time-name="9f231f58-f724-4b0f-b146-c1bd37953706">
           <AttributeID>Stanowisko</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="64d5dd22-397d-4a0f-8e7a-62edea253de2">
+        <Attribute dwd:design-time-name="d27ed05a-e946-4b0c-81fb-4f8786f2a86f">
           <AttributeID>BK Pracownika</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4c379fe8-3110-403c-9273-32b2a6b8ebd0">
+        <Attribute dwd:design-time-name="7d2e79b1-fc92-44b3-be04-243ae6307747">
           <AttributeID>Is Current</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="fca9051c-603f-4ea5-853e-bff091030af5">
+    <Dimension dwd:design-time-name="d2ba5545-fda0-4117-90ce-bfd6d8e82936">
       <ID>Czas Rozpoczecia</ID>
       <Name>Czas Rozpoczecia</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="8bd1e1fb-e253-4eac-9f0f-25208c923612">
+        <Attribute dwd:design-time-name="00d0f1d9-1edb-4270-bc1e-4abac775c622">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f922163f-b46a-410a-89c9-4a1e864003ad">
+        <Attribute dwd:design-time-name="11852245-c885-4b94-944b-50231728fbab">
           <AttributeID>Sekunda</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="2b592164-e5ef-4a79-a7ec-1121a44185fc">
+        <Attribute dwd:design-time-name="1b364dcf-52dd-45be-93bd-8ec3ea990f40">
           <AttributeID>Minuta</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4a8a466d-84c1-4a72-8366-5e3ba214cf92">
+        <Attribute dwd:design-time-name="7b7ad0cb-315d-4d82-9f4d-f1ebb092ea7d">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c29f869d-dd06-402d-81c7-c329fd20ae99">
+        <Attribute dwd:design-time-name="fc51c2b6-d3e3-49d9-ae7a-2e1b335b68fc">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9b7b569d-d0ec-45cd-9d14-672812794226">
+        <Attribute dwd:design-time-name="424a4ed1-a4de-4535-b973-d104b68f2f95">
           <AttributeID>Pelny Czas</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="7e81aa04-9b6a-4b36-bace-bf47a4a9a27e">
+        <Hierarchy dwd:design-time-name="49701ca5-12d4-439f-a965-f549904f87ca">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="fc33c099-cbfa-435f-a126-9176789b0bb3">
+    <Dimension dwd:design-time-name="377678f5-6b91-4f83-a449-41c97be84e16">
       <ID>Czas Zakonczenia</ID>
       <Name>Czas Zakonczenia</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="e0a8bb58-ae28-4be6-ac17-96cb8f7e18e4">
+        <Attribute dwd:design-time-name="4736cc4f-a6ea-4c42-b95a-8ecc46c49ff4">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9709dddb-09c0-4217-a713-37873add1839">
+        <Attribute dwd:design-time-name="90ab0b9d-d788-4360-b068-9e9ba8e60f01">
           <AttributeID>Sekunda</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="92917303-28b5-4d36-90fc-16e9feec2a50">
+        <Attribute dwd:design-time-name="4700f245-d5a9-451c-bdaf-70ae3f386dd5">
           <AttributeID>Minuta</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="525d10eb-c2f9-4bc2-8541-02d7b0d1a23b">
+        <Attribute dwd:design-time-name="8a350345-c195-4b2b-80ec-a8b6cbad4404">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="d23b3e9b-c4de-44ce-8f8a-d799e90ac320">
+        <Attribute dwd:design-time-name="1d977976-1501-469f-b1f7-5aae04563471">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b5d6cd22-fb33-4785-9cfb-2b4d4f703039">
+        <Attribute dwd:design-time-name="df677879-570c-4c22-8e4c-2ec076842e1c">
           <AttributeID>Pelny Czas</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="1ec7c586-c57a-4be9-95dc-82e307f439a8">
+        <Hierarchy dwd:design-time-name="a31aa232-9e04-43f5-bb57-d6863fe5b4e4">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="c2e3a300-3088-4cfd-b84b-e8abce1ea1e8">
+    <Dimension dwd:design-time-name="8d72e792-7dcd-44e5-9893-4a4c9a8834a5">
       <ID>Gra</ID>
       <Name>Gra</Name>
       <DimensionID>Gra</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="9037c392-811c-44ac-9863-076102210977">
+        <Attribute dwd:design-time-name="34746370-c18a-4716-a396-5a89f771e7e4">
           <AttributeID>ID Gry</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bab0b800-7afa-4f7f-934a-f9fb0c3d173c">
+        <Attribute dwd:design-time-name="023b5f6f-1393-4e3e-9bb1-d2a2208f62c8">
           <AttributeID>Nazwa Gry</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6a78732b-4307-40bf-8e31-69491702de4a">
+        <Attribute dwd:design-time-name="c1a3b416-ba04-4f26-95cb-8b40606e283b">
           <AttributeID>Kategoria</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="69563616-98a2-4f2f-a9ec-f4aa8cfcb743">
+    <Dimension dwd:design-time-name="20d693c7-a572-4c79-a9d6-764e8a6331e5">
       <ID>Data Rozpoczecia</ID>
       <Name>Data Rozpoczecia</Name>
       <DimensionID>Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="3bc08353-db39-4d05-8ffa-6051e75c017d">
+        <Attribute dwd:design-time-name="a2ec2813-f350-442e-bf72-a10d51228744">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e245084e-3cc5-4879-a757-37a059ee42fc">
+        <Attribute dwd:design-time-name="246824b9-52a7-4cd8-b2db-51ac51861f4d">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fe4267a2-3e2e-411d-9365-6e98e09b8589">
+        <Attribute dwd:design-time-name="2830c158-0cdd-47f5-bde2-f6664077a007">
           <AttributeID>Nazwa Miesiaca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="477fc179-e4b8-4045-966f-245a54579b4f">
+        <Attribute dwd:design-time-name="a1aa03a2-aaf8-44da-a102-58b752c16ea9">
           <AttributeID>Pelna Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="04c2de98-19df-4de9-8118-0329945a8b76">
+        <Attribute dwd:design-time-name="04405e98-cc87-403e-b718-2fb833e0a376">
           <AttributeID>Nazwa Dnia Tygodnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="171d7dfd-434c-4601-8195-c9f29ebd5f33">
+        <Attribute dwd:design-time-name="8391dd3e-6cf4-499d-b68e-e0a6ac25a43f">
           <AttributeID>Czy Weekend</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="08fe5cf4-fb04-40cb-9890-023295982a9d">
+        <Attribute dwd:design-time-name="526cc172-3022-4059-940b-f2e31bb68fcf">
           <AttributeID>Miesiac</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="6166a338-f5d6-43bc-9080-a2bc99e3d50b">
+        <Attribute dwd:design-time-name="cc411b67-c885-41db-a73d-b06d86ba200e">
           <AttributeID>Dzien Tygodnia</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="4d0377e4-adf9-465c-a1aa-4153de778617">
+        <Hierarchy dwd:design-time-name="190084e2-e311-4a72-aa8c-3af2c508c152">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="031c41a0-8508-44b7-adf1-2eaf16e56240">
+    <Dimension dwd:design-time-name="e8fd561b-04e7-440c-9f3c-379839500c6b">
       <ID>Promocja</ID>
       <Name>Promocja</Name>
       <DimensionID>Promocja</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a633c050-d74b-4822-bad9-d5e7453f041f">
+        <Attribute dwd:design-time-name="56e33868-529b-4517-b3f7-39d1ea3ca381">
           <AttributeID>ID Promocji</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="12f9fc4f-3cd3-4dab-92ff-f20fb9387c7c">
+        <Attribute dwd:design-time-name="b46e6837-dbd5-45d2-adfd-cbdac8751beb">
           <AttributeID>Typ Promocji</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="124c0d57-6dd2-4705-ad0d-7b11c910da44">
+        <Attribute dwd:design-time-name="0a8d0ae7-14c8-450d-8c1a-45df6b605d29">
           <AttributeID>Czy Aktywna</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f305815a-920c-4b9d-bcd5-f5922707cff0">
+        <Attribute dwd:design-time-name="bfbd153a-080a-4335-85d2-ecd42a870866">
           <AttributeID>BK Promocji</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="93547d79-5e78-4662-b605-cd36549642d4">
+    <Dimension dwd:design-time-name="b1d9d76c-6163-43c6-b5ea-442b015edcba">
       <ID>Kasyno</ID>
       <Name>Kasyno</Name>
       <DimensionID>Kasyno</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="77a84448-6e30-4e1b-9ac3-2ad97a30e9a5">
+        <Attribute dwd:design-time-name="f85406e1-c58f-4e3f-aeaf-fdd975009622">
           <AttributeID>ID Kasyna</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b70c74a4-50db-4790-affe-efa874e03f17">
+        <Attribute dwd:design-time-name="d0b493b1-1b25-4cd1-9007-d733b5113e5d">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="1694a0a6-f57f-4af3-a558-d3d9cff98550">
+        <Attribute dwd:design-time-name="c64b9c21-1ae7-4944-a630-61fd7da8145f">
           <AttributeID>BK Kasyna</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="3acd35ec-157f-4be7-8a44-2a3e1c0381e6">
+    <Dimension dwd:design-time-name="d4748607-b0d3-4519-9563-761496932b4c">
       <ID>Data Wejscia</ID>
       <Name>Data Wejscia</Name>
       <DimensionID>Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="698af98b-2f5f-4a0d-a5ec-7a0add8ab080">
+        <Attribute dwd:design-time-name="5302c4ed-9ed0-43a4-a422-e2d9d37441b5">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="65b1fc13-72e7-4efc-855a-737354cfd82d">
+        <Attribute dwd:design-time-name="30d09b45-b1b7-4144-91d4-37defa5795a9">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="fd386802-dbeb-4551-b979-205b7490679f">
+        <Attribute dwd:design-time-name="501d6044-eda3-4657-b805-114f88af181f">
           <AttributeID>Nazwa Miesiaca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6101c794-4dbb-4681-a7f4-311f4f0bf486">
+        <Attribute dwd:design-time-name="9917f212-fe67-4f10-a380-4fa38b738f4a">
           <AttributeID>Pelna Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3830d190-3948-440a-bfc4-c874f3c6d3ad">
+        <Attribute dwd:design-time-name="bebf617b-f70c-41b2-b187-13f7f2eb408b">
           <AttributeID>Nazwa Dnia Tygodnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bbd1851d-68e4-4c4b-85c6-6fda75966056">
+        <Attribute dwd:design-time-name="14f58150-0275-4682-b45c-641527f20399">
           <AttributeID>Czy Weekend</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="30a59851-1068-4d89-af1f-5706d51b8901">
+        <Attribute dwd:design-time-name="d4403741-ad28-4baf-8575-f0a931a542f6">
           <AttributeID>Miesiac</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="4acadb1c-08cc-430d-a99f-285d400e3ea2">
+        <Attribute dwd:design-time-name="8663eaee-6371-4803-bea9-0d26e3e6fbe4">
           <AttributeID>Dzien Tygodnia</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="a9bc94bd-bad3-4e9c-95d8-e90fb44c036d">
+        <Hierarchy dwd:design-time-name="f2e80b00-0a71-4f4d-a11f-c33831c2720f">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="7cb9d86d-0c86-4337-909f-209dad5591bb">
+    <Dimension dwd:design-time-name="f9515a72-4b6f-4da2-b491-b919ed717f00">
       <ID>Gracz</ID>
       <Name>Gracz</Name>
       <DimensionID>Gracz</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="01eb4fc2-f179-4af4-a9f6-4aa6fcc5bc50">
+        <Attribute dwd:design-time-name="6831afc6-da7d-4a8e-a06b-51b9e0804252">
           <AttributeID>ID Gracza</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="8266f793-0a5b-4fb9-b390-1e8cd3ff26ed">
+        <Attribute dwd:design-time-name="aa69a429-f27e-411c-ad11-bf6c104649d0">
           <AttributeID>BK Gracza</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="31d3975a-88dd-4656-b1a6-bd3b54ae408f">
+        <Attribute dwd:design-time-name="9da80636-0571-4a3f-934d-e5b87b598901">
           <AttributeID>Pelne Imie</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="21b696a1-c10c-4ce8-928e-a3f06f37c103">
+        <Attribute dwd:design-time-name="6fc16646-d05a-418b-9829-c9d3bedd7e05">
           <AttributeID>Plec</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f97b8aa6-00f0-4673-a4c4-ff7486570589">
+        <Attribute dwd:design-time-name="04627471-76e8-4d1e-a2f7-4649f97e9ec0">
           <AttributeID>Miasto</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="07949422-fe9c-46d8-b699-46bc2f38a552">
+        <Attribute dwd:design-time-name="45c2a7c7-cab8-4237-aed3-a6f27c519e49">
           <AttributeID>Status Czlonkostwa</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3061e5ad-278f-4e1d-9c20-d72de1efae9c">
+        <Attribute dwd:design-time-name="0f277dcc-0dc9-453a-a4d7-97195e108854">
           <AttributeID>Kategoria Wiekowa</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="a51bf3c8-04ab-434b-92bd-efcd49bda11a">
+        <Attribute dwd:design-time-name="7e649797-5d11-45e7-be8c-15669d643b61">
           <AttributeID>Staz Czlonkostwa</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3e7420e3-5e84-4847-b3f7-58d70322df18">
+        <Attribute dwd:design-time-name="2241e9e2-efc4-4e7f-9a6a-45a3eb4901c3">
           <AttributeID>Is Current</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="7063c5a9-6f70-4790-bd5a-8b3ea1610a2d">
+    <Dimension dwd:design-time-name="0ac27464-2fd3-4737-a3bc-6110ab7f67c4">
       <ID>Czas Wejscia</ID>
       <Name>Czas Wejscia</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="593234c8-fa77-4bc1-b6f8-9b10ed2196a3">
+        <Attribute dwd:design-time-name="a52c2d6a-4c56-4efd-9e85-acc84bbd8059">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b03c7fa8-5fb1-4b8f-b35a-bcb28ac8d38f">
+        <Attribute dwd:design-time-name="2bcf696c-8e0a-41b9-86cc-6f11f4283d11">
           <AttributeID>Sekunda</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6554736f-de16-45af-8274-5abb872d5dda">
+        <Attribute dwd:design-time-name="8882f493-96d5-4bec-9a35-0b9935ca26c4">
           <AttributeID>Minuta</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="31b17d81-be84-4629-b540-589c7d044bfa">
+        <Attribute dwd:design-time-name="c0159bf7-bc65-4ee1-bed8-7d16e2694e2a">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4b71a757-6406-476a-8a31-5af29c9ed99e">
+        <Attribute dwd:design-time-name="c7b2cddf-d052-4824-a447-881da35ef921">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c73a4d2f-7a06-4448-9791-4a4f996f6f80">
+        <Attribute dwd:design-time-name="cc8e8a26-0f44-435c-b49b-534e88998203">
           <AttributeID>Pelny Czas</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="b4d90b3f-4849-4456-b1c3-764371614f75">
+        <Hierarchy dwd:design-time-name="1af30c06-ccc6-4bb9-bb7b-417b49d9d931">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="b35cd460-badf-46a2-bbd5-e52821a44bd3">
+    <Dimension dwd:design-time-name="ed181eb5-a848-4715-99de-d5eccdb116f3">
       <ID>Data Wyjscia</ID>
       <Name>Data Wyjscia</Name>
       <DimensionID>Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="6c0b98ef-5227-462d-bbff-771ed39e04e4">
+        <Attribute dwd:design-time-name="793c6efc-9870-4852-9828-a92713e54e6b">
           <AttributeID>ID Daty</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="43c7fede-022d-4fd0-a7ff-72024df3399a">
+        <Attribute dwd:design-time-name="2a1ef448-490b-4804-8ca2-9cb849c85b58">
           <AttributeID>Rok</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="e669b7d8-e02d-4dd2-952a-6388aea6b907">
+        <Attribute dwd:design-time-name="22557e70-8cab-4f66-87c4-fbc6cf6a5ec0">
           <AttributeID>Nazwa Miesiaca</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="ad352dd2-d268-417d-a1be-a970cce24e78">
+        <Attribute dwd:design-time-name="6696c2ea-0515-45ce-83be-755eba5c0a60">
           <AttributeID>Pelna Data</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="162812e3-b52a-49ee-89c4-ca925870eee6">
+        <Attribute dwd:design-time-name="76ee9e98-bd86-470b-a132-7f254cce29d7">
           <AttributeID>Nazwa Dnia Tygodnia</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="fe5372b6-6eae-4a0a-b3c9-7a279b5fea5a">
+        <Attribute dwd:design-time-name="be803a22-2eca-4232-97a5-82e80cf526e0">
           <AttributeID>Czy Weekend</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="d0247742-02c3-4459-a49c-e65da5b322af">
+        <Attribute dwd:design-time-name="45b67f54-6982-4c98-a55d-2811e464e93f">
           <AttributeID>Miesiac</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="2c3dc97b-ca6b-40ed-b1e1-a7529178bef6">
+        <Attribute dwd:design-time-name="5fcd260a-be0a-47cc-87dd-a97c7f6c34e5">
           <AttributeID>Dzien Tygodnia</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="f90c0a62-0325-435b-ac95-1e9c1b1fde11">
+        <Hierarchy dwd:design-time-name="a1200b15-b884-4359-8981-68b5ada6c5d8">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="685b95b2-e835-4e25-a04a-64e0250fc289">
+    <Dimension dwd:design-time-name="43d26b9a-3f3e-4e84-a1ec-a5db3074e85c">
       <ID>Czas Wyjscia</ID>
       <Name>Czas Wyjscia</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="cf08d122-94ff-408e-ad48-27514fc691ca">
+        <Attribute dwd:design-time-name="8379010b-5837-4ecf-8eef-612024f515d3">
           <AttributeID>ID Czasu</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="2f346fa8-26fc-4d65-80e0-23b5cafb9acf">
+        <Attribute dwd:design-time-name="04b99501-c8e7-491a-ada5-cd10060b29ea">
           <AttributeID>Sekunda</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="ff162a05-095e-4f82-9c51-e86c36696ed0">
+        <Attribute dwd:design-time-name="3ea28fa7-3e98-47a4-9146-71efa994b912">
           <AttributeID>Minuta</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="fdf3dee8-364f-40ec-b408-db9930af3f84">
+        <Attribute dwd:design-time-name="598357c7-d494-4e46-8d64-d4028739ce90">
           <AttributeID>Godzina</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="1ee1da64-81f9-42b1-b622-1125a03e2362">
+        <Attribute dwd:design-time-name="174e7481-d099-4e36-9019-6458df1d041f">
           <AttributeID>Pora Dnia</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
-        <Attribute dwd:design-time-name="2cca4ab2-3cac-405d-a98e-e74992fa3ec0">
+        <Attribute dwd:design-time-name="b8700f28-357d-4967-94e8-230d21fd69e5">
           <AttributeID>Pelny Czas</AttributeID>
+          <AggregationUsage>None</AggregationUsage>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="676a62e0-74dc-4f25-8508-345baf05bcd6">
+        <Hierarchy dwd:design-time-name="405d1e04-35f2-4fcf-a7b5-424fdaa289dd">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="36a6600b-2d56-4b90-8336-faf1673b746e">
+    <Dimension dwd:design-time-name="c79730e9-a9d6-43cd-9064-b5df35d402da">
       <ID>Wizyta - Data Wejscia</ID>
       <Name>Wizyta - Data Wejscia</Name>
       <DimensionID>Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="9dfa318e-b16a-4cc0-804a-80b636842a1a">
+        <Attribute dwd:design-time-name="87138d43-4131-4335-bbcc-74fedc073a9b">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c152902d-da9c-43c1-92fa-dd4e810555de">
+        <Attribute dwd:design-time-name="4233b875-fc0d-4f28-bbbc-32bc5993a82d">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="9db68da5-1de2-442f-b98d-2ebc63581b82">
+        <Attribute dwd:design-time-name="7ec8a7e1-b64f-40ff-bebb-a82492803606">
           <AttributeID>Nazwa Miesiaca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="6aa5b657-1069-4f6d-a39a-84990354b82a">
+        <Attribute dwd:design-time-name="32b64c8c-d1b0-4ec2-a2fb-a47d160d6f7c">
           <AttributeID>Pelna Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ae7893a6-2248-4afe-873b-8ea6d5e6262a">
+        <Attribute dwd:design-time-name="013871b9-88e8-406d-b708-63d7a33feed3">
           <AttributeID>Nazwa Dnia Tygodnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="3e9a3f86-3d39-4bc1-8254-e50cb753969b">
+        <Attribute dwd:design-time-name="8d582326-4847-4a9d-9238-c5b69e6c1cf8">
           <AttributeID>Czy Weekend</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="5238c19d-bcf4-4bf6-a02d-1ca0d7768873">
+        <Attribute dwd:design-time-name="c44c8aac-2b05-4323-9a66-f0f4c6734171">
           <AttributeID>Miesiac</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="47620a20-390c-4a89-9be3-881194c332b3">
+        <Attribute dwd:design-time-name="26659d46-b44b-4823-a3ac-13a84adaeea7">
           <AttributeID>Dzien Tygodnia</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="79bfdfcc-7174-4833-af52-0f325ae72152">
+        <Hierarchy dwd:design-time-name="079964ce-91d4-4d7b-8f92-96d1276985ce">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="84aeb694-0af9-487b-80c8-5a79383dedc9">
+    <Dimension dwd:design-time-name="23dbe971-4828-4ea8-bd0c-9daeaaf80478">
       <ID>Wizyta - Czas Wejscia</ID>
       <Name>Wizyta - Czas Wejscia</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="d18e0db9-674e-4718-a60c-748025d88695">
+        <Attribute dwd:design-time-name="18ea0ec9-c95e-410e-a8cb-43de1b8a1e35">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="785bc442-003c-401e-96a9-68042209e31b">
+        <Attribute dwd:design-time-name="6cd6e22f-190f-418a-8223-40c6bcb902b4">
           <AttributeID>Sekunda</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="bbb9d791-42fe-43b3-b5fb-ff80308198b3">
+        <Attribute dwd:design-time-name="0fa1236e-b1af-4d75-aea9-0795fc0f4d5d">
           <AttributeID>Minuta</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ee65a092-6097-4d04-9884-2bfba0f8cf98">
+        <Attribute dwd:design-time-name="14afc8ac-c3c4-458e-88c9-7f73409a837e">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="82dbbced-4bdc-492c-a53a-e50926e6483b">
+        <Attribute dwd:design-time-name="5adbeb0c-b12c-4447-80a2-639315d571e2">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="56908076-c87e-4d76-8f5b-ca07f0d22b1e">
+        <Attribute dwd:design-time-name="29ae36b0-756f-46a2-a56d-d89824d8092e">
           <AttributeID>Pelny Czas</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="5baf0ff7-0854-4f0d-bb68-41223f184085">
+        <Hierarchy dwd:design-time-name="be1983a3-34da-4557-8bdf-361fb559315a">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="1641bc0d-da05-48c2-bc3f-8235f92fcaa0">
+    <Dimension dwd:design-time-name="858ca41b-56ff-4dac-b48b-62a32dbada9c">
       <ID>Wizyta - Data Wyjscia</ID>
       <Name>Wizyta - Data Wyjscia</Name>
       <DimensionID>Data</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="a8267b00-d23b-47b5-b71e-8923cf3c5636">
+        <Attribute dwd:design-time-name="c1b91c68-252c-468c-98a9-ccf2054bb083">
           <AttributeID>ID Daty</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="64bd7311-ebdb-4ae8-a5b1-297c1c0cb2b0">
+        <Attribute dwd:design-time-name="11baa85c-f82c-49bb-873c-d9cf06c45d5d">
           <AttributeID>Rok</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b98a6016-e326-4b80-94be-79e5eedbe574">
+        <Attribute dwd:design-time-name="f0912325-fe06-4e50-9f27-ba73f21ce8b1">
           <AttributeID>Nazwa Miesiaca</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="222a858e-3666-48c2-a730-cb57991117b5">
+        <Attribute dwd:design-time-name="d6252a0f-4422-4aec-b6a3-9c5ec0057ee0">
           <AttributeID>Pelna Data</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="f5bf6f72-1185-47a9-9512-a167b7d9c2e8">
+        <Attribute dwd:design-time-name="6b503ebb-be18-4ba5-abd6-6119cf55c7bc">
           <AttributeID>Nazwa Dnia Tygodnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b77e2571-c772-4449-962f-259b9dc41e8f">
+        <Attribute dwd:design-time-name="674ff287-d690-43b3-b7d2-7e1d9bd0ef39">
           <AttributeID>Czy Weekend</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="ce458352-cc23-4ff8-9533-99bb181c7c76">
+        <Attribute dwd:design-time-name="86be0447-e9b9-42f3-9c70-7fdb1c8acf0f">
           <AttributeID>Miesiac</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
-        <Attribute dwd:design-time-name="2a597fb2-2db8-4a88-b63c-ccef2227c10c">
+        <Attribute dwd:design-time-name="8430d2b1-8b29-405c-a1fa-6ea2a35d9508">
           <AttributeID>Dzien Tygodnia</AttributeID>
           <AttributeHierarchyEnabled>false</AttributeHierarchyEnabled>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="1b8a7214-c708-4d1d-9a3d-1cf2ab905376">
+        <Hierarchy dwd:design-time-name="bbbbcb71-c17b-4e26-a509-68f43d0ab3c0">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
-    <Dimension dwd:design-time-name="2936147c-cd76-4088-a6a7-ece8e5871d53">
+    <Dimension dwd:design-time-name="d47a7b6a-2cba-493b-8d18-19f5b5809156">
       <ID>Wizyta - Czas Wyjscia</ID>
       <Name>Wizyta - Czas Wyjscia</Name>
       <DimensionID>Czas</DimensionID>
       <Attributes>
-        <Attribute dwd:design-time-name="063e4e35-0ce6-431f-9d63-4d4060451292">
+        <Attribute dwd:design-time-name="e2da1c71-9a46-4eda-abd0-14e970482420">
           <AttributeID>ID Czasu</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="b9a46a4e-6598-4fcd-9182-bc2a6111e2f3">
+        <Attribute dwd:design-time-name="e19171bc-d003-40a2-976e-90476a7def57">
           <AttributeID>Sekunda</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="46ea208b-8c48-40a4-95f9-9faf7c05f708">
+        <Attribute dwd:design-time-name="1b111d4d-ee3b-4e79-8802-52d00bbe149f">
           <AttributeID>Minuta</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4dea7907-949e-49df-8f7c-551c09e93084">
+        <Attribute dwd:design-time-name="db1710b2-27a7-4bc1-a26f-45aacb6ba486">
           <AttributeID>Godzina</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="e09dab0b-96a4-430b-befe-ec5c2913d9e5">
+        <Attribute dwd:design-time-name="cef51dda-0cc1-4953-a690-996e0d812ef1">
           <AttributeID>Pora Dnia</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="c219014b-888e-4282-a045-031682f72bd1">
+        <Attribute dwd:design-time-name="13770fba-22d9-496b-bbf0-78822b1b981b">
           <AttributeID>Pelny Czas</AttributeID>
         </Attribute>
       </Attributes>
       <Hierarchies>
-        <Hierarchy dwd:design-time-name="41e33048-dea5-46da-a67f-4a2dba8e9d4f">
+        <Hierarchy dwd:design-time-name="72efed54-b824-4c4d-8e5e-62a0dbc80852">
           <HierarchyID>Hierarchy</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
-    <MeasureGroup dwd:design-time-name="7af90145-abc3-4017-87f5-1c294e79db83">
+    <MeasureGroup dwd:design-time-name="82e42f16-acda-467c-9048-7d937ef97fa2">
       <ID>Sesja Gry</ID>
       <Name>Sesja Gry</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -837,99 +851,100 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="b3ea8083-a886-4482-b14c-8098a27ddf13">
+        <Measure dwd:design-time-name="9440301d-da4f-4370-a41a-4191d69fd5d6">
           <ID>Kwota Postawiona</ID>
           <Name>Kwota Postawiona</Name>
-          <Source dwd:design-time-name="ff6bdf2a-6a81-4bbb-908c-831f48c997dc">
+          <Source dwd:design-time-name="c3539162-13b2-4011-95ea-45b9af35b879">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="d6681935-a3a9-45a3-aaec-df4565f26a85">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8e395b7d-3969-4a6f-8149-2d0322021573">
               <TableID>dbo_Sesja_Gry</TableID>
               <ColumnID>Kwota_postawiona</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="8b573b23-0381-449c-8681-7ad60d937c6c">
+        <Measure dwd:design-time-name="3380f913-b711-4e99-b12e-c6d4ebf23b97">
           <ID>Kwota Koncowa</ID>
           <Name>Kwota Koncowa</Name>
-          <Source dwd:design-time-name="274d4f16-9c06-424d-87d5-e62aca3e88f4">
+          <Source dwd:design-time-name="38975935-2348-4000-b84c-c322c080e618">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="238a181f-a233-430c-8bc0-4d5c7a472f01">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c6bfeed-acc5-439f-a1e4-d20cfdcac175">
               <TableID>dbo_Sesja_Gry</TableID>
               <ColumnID>Kwota_koncowa</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c584d14a-2348-421d-8e30-39f41207ae2c">
+        <Measure dwd:design-time-name="3f6d8b3e-d7b2-4b80-997b-1eafafe7636b">
           <ID>Liczba Rund</ID>
           <Name>Liczba rozegranych rund</Name>
-          <Source dwd:design-time-name="8a7d252e-b6b2-41cd-98eb-95d775baa5de">
+          <Source dwd:design-time-name="f7e059b6-b4a4-4bd1-9baa-c9b7ef95ddc9">
             <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="8f635482-ea6f-49f9-972c-f7c6213e7dc5">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bf633f3d-f103-481f-95c1-1369ddf59406">
               <TableID>dbo_Sesja_Gry</TableID>
               <ColumnID>Liczba_rund</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b4d7c590-8a41-4ad3-96fd-9c0494436819">
+        <Measure dwd:design-time-name="363d746e-2a20-4e45-98e2-a9453ddc168e">
           <ID>Bilans Gracza</ID>
           <Name>Laczny bilans graczy</Name>
-          <Source dwd:design-time-name="a781d7e6-df96-4c9d-9d18-b7fa335fa8ea">
+          <Source dwd:design-time-name="352ffa99-6dab-466d-91a6-763b585d7744">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="e2fe0402-4dad-499f-8822-1a7f0a93438d">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="ed81be7f-a9ee-4d58-b597-9337bfe71feb">
               <TableID>dbo_Sesja_Gry</TableID>
               <ColumnID>Bilans_Gracza</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="b79a4697-32d1-4d72-9ee2-4fc672f68d0a">
+        <Measure dwd:design-time-name="2a022c26-df40-459e-8702-a83dff399a46">
           <ID>Sesja Gry Count</ID>
           <Name>Liczba sesji gier</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="3b72cc35-7702-40fd-b27f-335f2cfb996c">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="39362a41-c303-4818-95ad-e3976aae9ad5">
-              <TableID>dbo_Sesja_Gry</TableID>
-            </Source>
-          </Source>
-        </Measure>
-        <Measure dwd:design-time-name="1c19d6d9-e687-4114-816d-e2e2e9d13e5f">
-          <ID>Kwota Postawiona - Sesja Gry</ID>
-          <Name>Kwota Postawiona - Sesja Gry</Name>
-          <AggregateFunction>AverageOfChildren</AggregateFunction>
-          <Source dwd:design-time-name="1d3c7e01-7199-43b0-a00b-f38c1feba53b">
+          <Source dwd:design-time-name="54752d27-16ab-4405-a41e-6e72f89a16d8">
             <DataType>Double</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="bc9a806d-0c36-48f7-8979-48e0768ac771">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="80f0ceff-8069-4d19-a534-e0ef73b58548">
               <TableID>dbo_Sesja_Gry</TableID>
               <ColumnID>Kwota_postawiona</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="c3b5ba10-cb40-44f6-8769-f65e834a447f">
+        <Measure dwd:design-time-name="70e438af-062b-4941-a5a2-23b80c927448">
+          <ID>Kwota Postawiona - Sesja Gry</ID>
+          <Name>Kwota Postawiona - Sesja Gry</Name>
+          <AggregateFunction>AverageOfChildren</AggregateFunction>
+          <Source dwd:design-time-name="88776c0d-d342-4320-ab97-1196f78b2a2a">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5b321e67-afa5-4408-8227-5cc237abc843">
+              <TableID>dbo_Sesja_Gry</TableID>
+              <ColumnID>Kwota_postawiona</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2270a656-5409-4f55-8087-640a3cd84d37">
           <ID>Dlugosc Sesji</ID>
           <Name>Laczny czas trwania sesji</Name>
-          <Source dwd:design-time-name="7adc2524-3fc5-4764-b60b-bd60d355d844">
+          <Source dwd:design-time-name="4f898a03-db12-40c7-abef-0d19d28a8b70">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="a682a408-1ddc-431c-81d0-801340394134">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3207ab99-d88d-4650-a518-468c6b85cacb">
               <TableID>dbo_Sesja_Gry</TableID>
               <ColumnID>Dlugosc_Sesji</ColumnID>
             </Source>
           </Source>
         </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Holap</StorageMode>
+      <EstimatedRows>1055856</EstimatedRows>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c5c6aa73-61bd-48a1-b739-2a22a0b9dd2f">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7de9f258-5ed7-488a-a1a7-8bef3253aefe">
           <CubeDimensionID>Wizyta</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="ca4748c9-4039-4cc2-a8f4-dc045df2be92">
+            <Attribute dwd:design-time-name="60701d8d-cf91-4650-9199-2d839d4fa290">
               <AttributeID>ID Wizyty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="eefbbac6-923f-4d37-ae27-afabe3681709">
+                <KeyColumn dwd:design-time-name="04de92e9-f458-4c24-a552-50ebe6856892">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d28f3e29-133e-484a-8ef1-2f49e5acf4be">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f45e565-c38f-47d6-8063-f6b25e232e93">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Wizyta</ColumnID>
                   </Source>
@@ -939,16 +954,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a88ea927-9dee-4a52-b62d-918af4d6ed63">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="56a54b45-3124-43ab-af9d-a5f39470bd62">
           <CubeDimensionID>Data Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9790f1bd-5b4c-469b-b626-fccffa792901">
+            <Attribute dwd:design-time-name="f6c3232b-1c76-4d42-adc6-74e2e28c6bbd">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6b4ec644-722a-4b7b-9f63-41c58f56edda">
+                <KeyColumn dwd:design-time-name="92209ce1-d2a1-4cfb-b43a-2cc5fe38f0f1">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a367be98-d2bc-44e6-8b3a-005589be22fc">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5e591127-d7fd-49b2-9d8a-5b3dc1e41929">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Data_Zakonczenia</ColumnID>
                   </Source>
@@ -958,16 +973,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e2187999-8f47-4601-b883-5b47e7d07e69">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="20c76f9b-e48c-479d-83ef-f30234b3df58">
           <CubeDimensionID>Pracownik</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="44ef1cd3-dcea-46e3-aa7f-37f4c861d148">
+            <Attribute dwd:design-time-name="c22d015d-e681-4242-b91b-98ec41a6f980">
               <AttributeID>ID Pracownika</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="075af9ad-0ab8-410f-bcd5-32a2a65bc91d">
+                <KeyColumn dwd:design-time-name="bba2a5ec-c266-4fff-8d71-3a3717c7e0e8">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="567e741d-bc09-4a05-9b53-e43fa0db0f6b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8caf8673-77cc-4676-bed5-0ea3a58b81ba">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Pracownik</ColumnID>
                   </Source>
@@ -977,16 +992,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6b861f09-0615-4412-981e-4b1a544f7c90">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a6d7015f-73d0-43a0-8554-4197fd42e0bd">
           <CubeDimensionID>Czas Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="50ad9e92-b060-41b9-8add-6d134b8fdcae">
+            <Attribute dwd:design-time-name="866bddd4-497b-43b1-a594-4f315b3b027a">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="073d88c7-ef67-42ff-9697-f05286a933f7">
+                <KeyColumn dwd:design-time-name="5bfd9b67-edd2-440a-9fcf-d815f5712add">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2af87f61-c650-4080-a4c9-c4d016a3fd3c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8f27420f-e1c4-4efc-82df-754b3d22a637">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Czas_Rozpoczecia</ColumnID>
                   </Source>
@@ -996,16 +1011,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f6898d7e-2973-4946-8e88-dc742e9b8cdb">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="e54e1acb-4702-4dde-a3c0-7b00a9350e1e">
           <CubeDimensionID>Czas Zakonczenia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="24b4dde9-a4fa-4415-b064-ccc8522bc3e3">
+            <Attribute dwd:design-time-name="a3b31f2a-e3fa-4eda-ad2b-9976ae7a60bf">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="6baef799-4aca-452d-946d-2fdb67e1460d">
+                <KeyColumn dwd:design-time-name="960f5ac0-65d4-415e-a8d8-015211b1418c">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d6e8f070-5786-4f4d-9861-6f8d262a4952">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a89a23e2-cfeb-422f-9e52-a6962bcdfdea">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Czas_Zakonczenia</ColumnID>
                   </Source>
@@ -1015,16 +1030,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="74c38586-adbf-485b-bbee-c027c161c2ca">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3f9fa8e5-c282-4708-ba31-39b1517aadaa">
           <CubeDimensionID>Gra</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="21b8b662-bb40-40bf-a6f5-18714f5b641e">
+            <Attribute dwd:design-time-name="4cc82d86-d078-4bf2-87f0-94af2b44d842">
               <AttributeID>ID Gry</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="18870b4d-2998-4668-8958-342a7a910d57">
+                <KeyColumn dwd:design-time-name="ead634e4-e241-4f3d-bc90-eaefb14b4f1a">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9bdd9196-c6c3-49c4-8d7c-f7a658f0db45">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a0499197-b48c-4876-a4d8-ca418db4da12">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Gra</ColumnID>
                   </Source>
@@ -1034,16 +1049,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5808da42-b550-40be-8806-e38263b1805e">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c2db923c-38ba-42b1-801e-3770f4312653">
           <CubeDimensionID>Data Rozpoczecia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="737b8d75-d8bd-497e-b7ca-e5cfded619d6">
+            <Attribute dwd:design-time-name="5f6066bb-fdc4-42bb-99be-c77801d71634">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="16db19c2-b0b1-4882-929e-cbff91c47796">
+                <KeyColumn dwd:design-time-name="a5812c16-4817-4ab6-8929-7d6b000069f6">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b16f3ee8-a69f-4395-a13a-d7eb6a2b93f5">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="531f2030-22c1-4c5e-9b37-15b64ffa7e73">
                     <TableID>dbo_Sesja_Gry</TableID>
                     <ColumnID>FK_Data_Rozpoczecia</ColumnID>
                   </Source>
@@ -1053,14 +1068,14 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="aa36b98a-f742-4c24-ad8a-d061b3324a13">
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="27a789a7-8e3d-461d-afcd-61c06b35234a">
           <CubeDimensionID>Promocja</CubeDimensionID>
           <MeasureGroupID>Aktywacja Promocji</MeasureGroupID>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7cad61ff-98d2-4435-b352-009c49e52200">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="de10e393-f2b1-46c0-95c3-4d4b88a2513b">
           <CubeDimensionID>Kasyno</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="499d9b6b-a1e1-4534-9206-24092ce38c47">
+            <Attribute dwd:design-time-name="aeda7cfb-13a4-4034-8e8d-c62b57ca4265">
               <AttributeID>ID Kasyna</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1070,10 +1085,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="5e15b958-776c-4a9c-abff-ba052261c9b8">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c1828133-c865-4535-827a-503719217db2">
           <CubeDimensionID>Wizyta - Data Wejscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c6392ffc-0e48-4d91-ae9f-643d7c86a615">
+            <Attribute dwd:design-time-name="46e264c0-cd0a-4095-bd42-e1da82762b2e">
               <AttributeID>ID Daty</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1083,10 +1098,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="0d81dc08-0d01-4078-8f6f-26b9bde42b2b">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d9e1c947-d97d-4f94-85bd-42084d3aa7dc">
           <CubeDimensionID>Wizyta - Czas Wejscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f8d3d05d-1086-4794-87ed-83220d0b84a2">
+            <Attribute dwd:design-time-name="72a6676c-b074-460d-8198-c613ae7693bc">
               <AttributeID>ID Czasu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1096,10 +1111,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7b114466-02f2-494f-9946-0592741269ed">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7f674923-606b-4a59-88fd-b266f2c946e5">
           <CubeDimensionID>Wizyta - Data Wyjscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="e22ade38-d96c-49c1-8181-1d97f51abb4c">
+            <Attribute dwd:design-time-name="1904e0b7-d28e-4b25-ba79-e86228340a72">
               <AttributeID>ID Daty</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1109,10 +1124,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="d3879be8-17c9-4935-8f4e-36970d6a177e">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="be3f6565-a624-4476-af75-f6f73674700f">
           <CubeDimensionID>Wizyta - Czas Wyjscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c994d82e-01fb-40a9-862b-1e005c1bd543">
+            <Attribute dwd:design-time-name="85bd97cc-2ef4-4028-9151-b9ea5b8befaa">
               <AttributeID>ID Czasu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1122,10 +1137,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="70151c9b-afab-4693-9565-d7310e7c4f9f">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="ac510eaa-9d41-4f80-9032-51630edff334">
           <CubeDimensionID>Gracz</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9a9e1d02-06e2-4df8-a907-f0ac8ee193a8">
+            <Attribute dwd:design-time-name="6e567029-2783-42a4-830c-25c17abd0185">
               <AttributeID>ID Gracza</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1137,18 +1152,19 @@
         </Dimension>
       </Dimensions>
       <Partitions />
-      <ProactiveCaching dwd:design-time-name="24d3e3ee-d15e-4526-94c6-da740f139876">
+      <AggregationDesigns />
+      <ProactiveCaching dwd:design-time-name="d224b278-945f-4d2a-a5df-f56b036d5cbc">
         <SilenceInterval>-PT1S</SilenceInterval>
         <Latency>-PT1S</Latency>
         <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
         <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
         <AggregationStorage>MolapOnly</AggregationStorage>
-        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="78756dfd-7984-4784-9642-621470401e57">
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="47917709-bed0-4aa4-a24f-573b5a69e192">
           <NotificationTechnique>Server</NotificationTechnique>
         </Source>
       </ProactiveCaching>
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="1844b295-0233-47a4-b68b-43db8be6b6e0">
+    <MeasureGroup dwd:design-time-name="98eb3500-a9a8-4d2f-b383-40d69d047b7a">
       <ID>Aktywacja Promocji</ID>
       <Name>Aktywacja Promocji</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1156,31 +1172,32 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="36ff7000-cc93-4395-be71-3d28978ee148">
+        <Measure dwd:design-time-name="b4c3b948-b281-46f3-b490-7869f3954932">
           <ID>Aktywacja Promocji Count</ID>
           <Name>Liczba aktywacji promocji</Name>
           <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="bc5b805e-8f68-4b56-a49e-aaf8b443d92f">
+          <Source dwd:design-time-name="37239a3a-4ae9-4571-a6ac-50a4f914e373">
             <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="11f34090-92d8-4268-9289-7a25234c51e9">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="fc3816dd-254c-4e26-8495-558cf55e5061">
               <TableID>dbo_Aktywacja_Promocji</TableID>
+              <ColumnID>FK_Wizyta</ColumnID>
             </Source>
           </Source>
         </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Holap</StorageMode>
+      <EstimatedRows>90930</EstimatedRows>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="58baa00a-fe96-4b52-91f1-5c1a476f8572">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fa6424e1-3006-474e-b08d-dcfa6f190689">
           <CubeDimensionID>Wizyta</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="61b5aea3-e86e-4835-8a90-3f188a32023f">
+            <Attribute dwd:design-time-name="06a662cb-8f5b-48d8-9358-cb9ca813ffc8">
               <AttributeID>ID Wizyty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="10abb91b-7d07-4b3a-9d34-baaf977ef732">
+                <KeyColumn dwd:design-time-name="5209e799-c2e0-4ee7-8bc9-c2a814376499">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="63f4dc75-f61b-40c9-b0c3-dbd28e4ef22c">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="034ac924-2d8c-4890-a18d-b7294173a2c8">
                     <TableID>dbo_Aktywacja_Promocji</TableID>
                     <ColumnID>FK_Wizyta</ColumnID>
                   </Source>
@@ -1190,15 +1207,15 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="79caeae0-202d-4774-81ed-8258039b1dc6">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6091cfe4-27e2-43ea-bc3c-2fcbf42bd072">
           <CubeDimensionID>Promocja</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="2229fe31-647b-4141-ac53-cfa175010c18">
+            <Attribute dwd:design-time-name="263f24c6-8d4b-4d24-a3c3-46ad4bf4ec1b">
               <AttributeID>ID Promocji</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="188b066c-556b-45a5-9bc7-20891fda2ee0">
+                <KeyColumn dwd:design-time-name="bc3049dd-9027-4198-8f15-8f8efdc546ea">
                   <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d3d49355-a7bc-4004-b73e-a92fd0902ceb">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4c36f6a-8c13-444c-911a-d7bb49f6b2f0">
                     <TableID>dbo_Aktywacja_Promocji</TableID>
                     <ColumnID>FK_Promocja</ColumnID>
                   </Source>
@@ -1208,10 +1225,10 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="4d8e28ef-48c5-40f1-9ac7-43e8f6d4e772">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="2c3e6742-79fd-4aab-8579-e8147f39af91">
           <CubeDimensionID>Kasyno</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1dc87873-d4b5-45ed-b8a6-0c9e86d41971">
+            <Attribute dwd:design-time-name="4c33b7c6-45b0-4ac7-9a7e-fbad99c5ef7d">
               <AttributeID>ID Kasyna</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1221,10 +1238,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="b0de498e-953a-454c-8d5a-87e386e7462c">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="224dcd4b-c6e7-49a6-8473-a2e118165033">
           <CubeDimensionID>Wizyta - Data Wejscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c6997bfb-9aeb-4c04-8c29-fc482d5217bd">
+            <Attribute dwd:design-time-name="780cc4c5-06c1-4bc0-b42a-c5efd04a88a6">
               <AttributeID>ID Daty</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1234,10 +1251,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="23b46dbc-a1f9-4c5e-bbdc-44aab1b6bab7">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c0a6c673-1670-4f65-a2ac-e14fc7d0bf21">
           <CubeDimensionID>Gracz</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1d2561a0-4991-4dbd-846c-b6b8c9136c12">
+            <Attribute dwd:design-time-name="40a80671-3714-425f-b8b5-b9fd1949e2a2">
               <AttributeID>ID Gracza</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1247,10 +1264,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="bf76fc58-afff-40c2-9570-a06f3d4a7eab">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="c342a155-5560-4ca4-a136-abe7f745255a">
           <CubeDimensionID>Wizyta - Czas Wejscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="c6794aff-6af4-4c05-a25d-63e2d75e51cc">
+            <Attribute dwd:design-time-name="a430eaea-c75b-4fb2-a79d-57b504461093">
               <AttributeID>ID Czasu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1260,10 +1277,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="229d1fc9-54db-48eb-88e8-3d66682208ff">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="7fa3744a-c3b9-42aa-8da1-13132f36ea3b">
           <CubeDimensionID>Wizyta - Data Wyjscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="dbfb83f7-754b-4e33-a96f-831bb246e14c">
+            <Attribute dwd:design-time-name="f94399f9-5354-4440-b7bb-bd18e492847e">
               <AttributeID>ID Daty</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1273,10 +1290,10 @@
           <Materialization>Regular</Materialization>
           <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
         </Dimension>
-        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="8b856f50-3efe-4fc5-8534-ec878f9d3034">
+        <Dimension xsi:type="ReferenceMeasureGroupDimension" dwd:design-time-name="65264a03-a2a7-443b-9d29-ac02aadce548">
           <CubeDimensionID>Wizyta - Czas Wyjscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="1000bd92-d9de-4ad6-b05f-f621fa7edf64">
+            <Attribute dwd:design-time-name="6d40053c-2bd2-4a77-b7ce-1e52719953bd">
               <AttributeID>ID Czasu</AttributeID>
               <Type>Granularity</Type>
             </Attribute>
@@ -1288,8 +1305,20 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <AggregationDesigns />
+      <ProactiveCaching dwd:design-time-name="12a8909e-8d55-44bf-8fa5-410f6b684af1">
+        <SilenceInterval>PT10S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>PT10M</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <OnlineMode>OnCacheComplete</OnlineMode>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="33a19ebc-e51a-42b4-a069-d8dbd7de6bb8">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
     </MeasureGroup>
-    <MeasureGroup dwd:design-time-name="786b57f5-6e8c-4ec1-ac54-37fad87e2369">
+    <MeasureGroup dwd:design-time-name="e753dc0f-870f-449d-9d5e-1b8d5ad3832d">
       <ID>Wizyta</ID>
       <Name>Wizyta</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1297,43 +1326,45 @@
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
-        <Measure dwd:design-time-name="5cdd13b5-edd2-492a-85a3-a35a522f02d4">
+        <Measure dwd:design-time-name="04e26d38-ac66-4bb7-966e-6c0568a892a3">
           <ID>Dlugosc Wizyty</ID>
           <Name>Laczny czas trwania wizyt</Name>
-          <Source dwd:design-time-name="ee99938b-a1b0-4175-a59a-224782ebef94">
+          <Source dwd:design-time-name="48ca2bb6-caab-4771-97b9-02ce55fe463e">
             <DataType>BigInt</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="c75b0e56-da78-494e-8305-c13879508ef3">
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24d56cc4-4005-4b36-ab19-9687e302d144">
+              <TableID>dbo_Wizyta</TableID>
+              <ColumnID>Dlugosc_Wizyty</ColumnID>
+            </Source>
+          </Source>
+          <MeasureExpression></MeasureExpression>
+        </Measure>
+        <Measure dwd:design-time-name="f55067bb-2f7f-4b13-9dab-d822082b1aed">
+          <ID>Wizyta Count</ID>
+          <Name>Liczba wizyt</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="fce118e0-0635-4ce0-8299-65b0f38b7dca">
+            <DataType>BigInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9e0b9b4d-ea25-4548-b476-71578f518cc0">
               <TableID>dbo_Wizyta</TableID>
               <ColumnID>Dlugosc_Wizyty</ColumnID>
             </Source>
           </Source>
         </Measure>
-        <Measure dwd:design-time-name="83533877-a524-4074-94f9-36700fa3937a">
-          <ID>Wizyta Count</ID>
-          <Name>Liczba wizyt</Name>
-          <AggregateFunction>Count</AggregateFunction>
-          <Source dwd:design-time-name="300afcec-487e-4f4f-a9a6-b2a6b3b66202">
-            <DataType>Integer</DataType>
-            <DataSize>4</DataSize>
-            <Source xsi:type="RowBinding" dwd:design-time-name="d00c6d4f-031b-4c0b-893f-c46648fc2ff7">
-              <TableID>dbo_Wizyta</TableID>
-            </Source>
-          </Source>
-        </Measure>
       </Measures>
-      <StorageMode>Molap</StorageMode>
+      <StorageMode>Holap</StorageMode>
+      <EstimatedRows>301880</EstimatedRows>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b187f831-9a09-4178-a6cc-c84e4e8cd3fe">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="949f6f86-cb80-40e2-a585-197da5ad94a7">
           <CubeDimensionID>Kasyno</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="f04d2905-bcb2-4ddb-a09a-0c804dec87cf">
+            <Attribute dwd:design-time-name="75403a66-fa60-4c8e-b967-5125783cdb3e">
               <AttributeID>ID Kasyna</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="33094898-e870-4246-a836-b519ec4041ff">
+                <KeyColumn dwd:design-time-name="9b784cd6-c5aa-4124-9b5f-76a70253eb39">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13690581-d2f5-469e-889e-4693e1b19ace">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="605e1dfc-effa-4e37-a770-b3ee935f025f">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>FK_Kasyno</ColumnID>
                   </Source>
@@ -1343,16 +1374,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c0614956-925c-4ef7-ac8e-639e866f9b68">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="29096775-db19-42e6-8b18-f334736fb5dd">
           <CubeDimensionID>Data Wejscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="a56a4c90-b45f-4dc9-92bc-0c9cfab6234b">
+            <Attribute dwd:design-time-name="78b5f312-b4a4-4cd4-bca2-c86d6c936fe9">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="01669a08-f3a6-47e5-8f56-db95e1a22129">
+                <KeyColumn dwd:design-time-name="90884e30-df80-439f-a720-a30a1335f737">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3893f1e0-08a6-4a82-95f5-8476df345c10">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="73b6f6a1-d999-41c4-99eb-9d8c5ec1e994">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>FK_Data_Wejscia</ColumnID>
                   </Source>
@@ -1362,16 +1393,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="6a7f87f0-71df-4ff6-ad34-32e8a89704c1">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="3b5b4862-fd8d-4dab-bfb1-c5d10a43a79b">
           <CubeDimensionID>Gracz</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="07400cae-4f67-450b-8888-b376e6a323e1">
+            <Attribute dwd:design-time-name="5ba59092-551b-4da4-9f84-675d3fbd159b">
               <AttributeID>ID Gracza</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="a2f50fed-6920-4f69-8be8-2f87b9da90fa">
+                <KeyColumn dwd:design-time-name="b8016f05-5ea5-4110-b8be-e36dacad447e">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ee5d03c3-7784-4747-8d58-df47006ee122">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="32557fd2-d5f8-4352-bd97-4a01b4aecdff">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>FK_Gracz</ColumnID>
                   </Source>
@@ -1381,16 +1412,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1adb8a19-18d9-4146-b662-6c8655443f1a">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="be52e3a3-ee8b-4934-aecf-326d51f50c0a">
           <CubeDimensionID>Czas Wejscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="822d000c-4a91-4926-b9ca-587f3e024ab9">
+            <Attribute dwd:design-time-name="ecbec861-bf12-4921-a331-1eb6a714ceeb">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="37dc3fa9-3bc2-4d45-81ce-728a6d70d427">
+                <KeyColumn dwd:design-time-name="eea5858a-2a1b-4487-86a0-5556d0819d97">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ac013907-fb4d-499b-876f-e6db910b157a">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="29fd0528-37e6-467c-9d45-a4066c6bac41">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>FK_Czas_Wejscia</ColumnID>
                   </Source>
@@ -1400,16 +1431,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f314478d-dc79-4b80-a7de-d0b6e4ddba22">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f04e8815-4203-48c3-a86f-8615bdf44c3a">
           <CubeDimensionID>Data Wyjscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="d4b17884-57d0-4cee-af4a-78266d1b82cc">
+            <Attribute dwd:design-time-name="a38da5d3-0465-45d8-b8b6-4ba72b1d877c">
               <AttributeID>ID Daty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="c4c4c0f3-4a7b-45c9-94f0-0a5a5dd19bfe">
+                <KeyColumn dwd:design-time-name="1c4dac64-fc33-4450-b601-7a623981345e">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2288c937-b038-4990-a43e-05e6e3910d1b">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="970e9839-587f-4278-8a5e-0877a8967dff">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>FK_Data_Wyjscia</ColumnID>
                   </Source>
@@ -1419,16 +1450,16 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f64dbda6-d0e1-453c-ad2d-8948b4a5f360">
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f2eb0e4a-bcbf-40fe-83a0-8abafc9fa624">
           <CubeDimensionID>Czas Wyjscia</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="9a4dcb69-0a95-40ba-9199-eb9dc3ce8628">
+            <Attribute dwd:design-time-name="f6f59804-b387-424f-8d51-21d1743696c1">
               <AttributeID>ID Czasu</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="783ac161-5913-4dde-87b0-0050b32707be">
+                <KeyColumn dwd:design-time-name="b0d262e1-a485-4c51-a009-077e9970b922">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b32c0996-d73a-432f-bd6b-12e300d72621">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a7dc5840-59d1-4ae1-9bdd-22e30a4f32f0">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>FK_Czas_Wyjscia</ColumnID>
                   </Source>
@@ -1438,20 +1469,20 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="92188e1e-d012-4313-8e11-e0570191940a">
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="31b5812a-018a-4a59-ba8e-6bcf7fee48ac">
           <CubeDimensionID>Promocja</CubeDimensionID>
           <MeasureGroupID>Aktywacja Promocji</MeasureGroupID>
         </Dimension>
-        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="612610ed-cbde-4e78-b100-3e40b7d69d07">
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="79597a58-f64d-4e1d-899a-82c01f24b61f">
           <CubeDimensionID>Wizyta</CubeDimensionID>
           <Attributes>
-            <Attribute dwd:design-time-name="06b59cb5-6681-4baf-8a66-4222ae3ec854">
+            <Attribute dwd:design-time-name="98f05b40-c5e2-4ee1-bfea-30a88e70c542">
               <AttributeID>ID Wizyty</AttributeID>
               <KeyColumns>
-                <KeyColumn dwd:design-time-name="5ce3eae5-4dda-4efe-89e5-46dada17712e">
+                <KeyColumn dwd:design-time-name="213cae83-f29a-4e74-805d-837e5a4f572e">
                   <DataType>Integer</DataType>
                   <NullProcessing>UnknownMember</NullProcessing>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eb9c3e23-5d02-41d5-af1a-a7b640963531">
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4600ac0e-caf3-431b-b68d-ea1c37b29360">
                     <TableID>dbo_Wizyta</TableID>
                     <ColumnID>ID_Wizyty</ColumnID>
                   </Source>
@@ -1463,13 +1494,24 @@
         </Dimension>
       </Dimensions>
       <Partitions />
+      <AggregationDesigns />
+      <ProactiveCaching dwd:design-time-name="725718bf-60f7-4a6d-b0cb-5218f8023bed">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <AggregationStorage>MolapOnly</AggregationStorage>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="83daca39-2534-4b30-903f-7a522261beef">
+          <NotificationTechnique>Server</NotificationTechnique>
+        </Source>
+      </ProactiveCaching>
     </MeasureGroup>
   </MeasureGroups>
-  <Source dwd:design-time-name="6a5cae2e-6865-42df-b98c-54b93790beea">
+  <Source dwd:design-time-name="e183c744-cad1-427e-890f-2b67735670bf">
     <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
   </Source>
   <MdxScripts>
-    <MdxScript dwd:design-time-name="31653c9e-8733-4aaa-86c3-b9c569cce4d0">
+    <MdxScript dwd:design-time-name="b3d5ed32-f5fa-4713-b9de-c8bc37e036f8">
       <ID>MdxScript</ID>
       <Name>MdxScript</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -1527,7 +1569,7 @@ VISIBLE = 1  ; </Text>
     </MdxScript>
   </MdxScripts>
   <Kpis>
-    <Kpi dwd:design-time-name="3ce83bfc-54a8-4125-a276-8369818b9a28">
+    <Kpi dwd:design-time-name="2f965142-74e0-4b3c-aff2-b2f5ea8c6d9d">
       <ID>KPI</ID>
       <Name>KPI_WzrostCzasuWizyty</Name>
       <AssociatedMeasureGroupID>Wizyta</AssociatedMeasureGroupID>
@@ -1550,7 +1592,7 @@ END</Trend>
       <TrendGraphic>Status Arrow - Ascending</TrendGraphic>
       <StatusGraphic>Gauge - Ascending</StatusGraphic>
     </Kpi>
-    <Kpi dwd:design-time-name="e74e7c55-8674-47e4-86a9-90625b5988f1">
+    <Kpi dwd:design-time-name="252106ff-e792-43b6-868f-3ee99eac9410">
       <ID>KPI 1</ID>
       <Name>KPI_SredniaGierNaGracza</Name>
       <AssociatedMeasureGroupID>Sesja Gry</AssociatedMeasureGroupID>
