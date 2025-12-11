@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="143268d7-a6c4-45cc-b506-491a5083ef89" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="086759b2-cc8a-4618-b500-59f58a2c8ab1" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Gracz</ID>
   <Name>Gracz</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -77,61 +77,62 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="a4b0eac6-f774-4438-8123-7f305747d675">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="70326cc1-b64b-44fc-893f-bb0d6b328aff">
     <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="4eab96b7-0ccd-455a-8b9e-82e63d8fe8c2">
+  <ErrorConfiguration dwd:design-time-name="e5fdd7de-64c0-4576-9a40-0eccc3360be7">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="7d644b80-9284-4f36-a380-7a9a01d9691c">
+    <Attribute dwd:design-time-name="b5d98f9a-45c4-4fe5-8ff3-337135abbad8">
       <ID>ID Gracza</ID>
       <Name>ID Gracza</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>12000</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3ccae7c0-ca79-47ec-a72a-ca84a00c159e">
+        <KeyColumn dwd:design-time-name="c17e828c-c923-4501-bb5c-ca4969449eb6">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="be0ce166-fd99-4bdb-9280-359c817194b2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="42c1074b-6940-4112-8b36-0286f8a56867">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>ID_gracza</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="ee6cbccc-79e2-4b25-b2bd-15bf522a0873">
+        <AttributeRelationship dwd:design-time-name="25084303-4dd0-4e45-bb87-5635a1955763">
           <AttributeID>BK Gracza</AttributeID>
           <Name>BK Gracza</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2b5a682a-4399-4ba8-b09b-8753ac173c8a">
+        <AttributeRelationship dwd:design-time-name="9dccf054-73d9-4b5d-9c22-da542c0f9201">
           <AttributeID>Pelne Imie</AttributeID>
           <Name>Pelne Imie</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="01962bef-a22d-401f-8bf4-9bc2b15280f3">
+        <AttributeRelationship dwd:design-time-name="ce268d3a-b478-4866-ad1b-4b857324cde0">
           <AttributeID>Plec</AttributeID>
           <Name>Plec</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="74befc3d-b827-47a8-9669-cf64c33473f7">
+        <AttributeRelationship dwd:design-time-name="220b3c6b-645c-4ca8-bd96-caf8ba0d5289">
           <AttributeID>Miasto</AttributeID>
           <Name>Miasto</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2f101462-32c0-4664-b3ea-6d05afe8f5fc">
+        <AttributeRelationship dwd:design-time-name="5e5d5b64-193b-492f-8e4d-ef7b09a54e4e">
           <AttributeID>Status Czlonkostwa</AttributeID>
           <Name>Status Czlonkostwa</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="1a18a2ed-c535-421d-a1f8-817de671fb77">
+        <AttributeRelationship dwd:design-time-name="e94a83af-ff05-474d-be3a-a35731f288fa">
           <AttributeID>Kategoria Wiekowa</AttributeID>
           <Name>Kategoria Wiekowa</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8147660f-aeec-4c13-90bb-bfc6b2844c7d">
+        <AttributeRelationship dwd:design-time-name="9a0e1d08-6f5b-4b55-b6fd-f47327ac5ead">
           <AttributeID>Staz Czlonkostwa</AttributeID>
           <Name>Staz Czlonkostwa</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="17558cc6-559b-45f4-8a4e-0f94a16de87a">
+        <AttributeRelationship dwd:design-time-name="74eb8f0b-5c76-4ff8-b938-eb4f67eecc98">
           <AttributeID>Is Current</AttributeID>
           <Name>Is Current</Name>
         </AttributeRelationship>
@@ -140,14 +141,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7b9b0a50-8e91-494f-b060-25f0e57a42f2">
+    <Attribute dwd:design-time-name="78470045-9111-4092-ab57-86d114ac378f">
       <ID>BK Gracza</ID>
       <Name>BK Gracza</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="21c8b048-28eb-4528-99b6-225787cdecf3">
+        <KeyColumn dwd:design-time-name="cf405bef-30a3-4a63-8026-54046422dcee">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="64d52108-5c24-418e-9008-55e6f8177838">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22f84bde-6186-4fa3-83cb-043a42c47be7">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>BK_gracza</ColumnID>
           </Source>
@@ -156,14 +157,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b314694a-a485-45dc-b560-09f0310d6bfe">
+    <Attribute dwd:design-time-name="ce1aa00f-a171-48c8-8966-b2347d047b93">
       <ID>Pelne Imie</ID>
       <Name>Pelne Imie</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="017ef14c-9157-4928-ac8b-47e5af34e8f4">
+        <KeyColumn dwd:design-time-name="b71cd264-2f7b-4f15-bb89-475a523eeed4">
           <DataType>WChar</DataType>
           <DataSize>200</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ea7d9493-4a05-4111-97f2-109df4e9d30b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94d350d2-f391-4362-8abf-d73b603ff8c4">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>Pelne_imie</ColumnID>
           </Source>
@@ -172,14 +173,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="64c1c308-4a13-4984-9ebe-00dfc6fa0a82">
+    <Attribute dwd:design-time-name="8dd717a6-db57-47c3-baa6-7820ff5cec44">
       <ID>Plec</ID>
       <Name>Plec</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="51487246-00ef-4c40-8f77-05837aef0bfd">
+        <KeyColumn dwd:design-time-name="84daa857-c3f0-44f7-89e9-398750aafc96">
           <DataType>WChar</DataType>
           <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e56becaf-85f3-4b66-81d1-20db86a1fbbe">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b97f9bd0-deaa-4d5e-aae9-439b2dce5b22">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>Plec</ColumnID>
           </Source>
@@ -188,14 +189,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7b2ffba9-b8ca-4d5b-9bff-04a1bddbd661">
+    <Attribute dwd:design-time-name="e0cf041a-a2a5-47cd-8f3c-4a694aa5c600">
       <ID>Miasto</ID>
       <Name>Miasto</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c8d2bdde-7f91-4038-8f3b-8d57059a45b0">
+        <KeyColumn dwd:design-time-name="bae85903-e8d9-42e6-ab4c-7dc3e9061bea">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="dfd21e72-cde6-432f-a838-0906a12ee4ac">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc9e90ab-39f8-4ade-8048-be11d71f117b">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>Miasto</ColumnID>
           </Source>
@@ -204,14 +205,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fc2c0864-91ff-45d1-b7aa-ef02f4e826c4">
+    <Attribute dwd:design-time-name="d1f07f1c-bc9d-42d7-b340-b16788ecd2ae">
       <ID>Status Czlonkostwa</ID>
       <Name>Status Czlonkostwa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="72566055-0f73-4ede-b04b-7038cdebc037">
+        <KeyColumn dwd:design-time-name="78e0275b-8196-41ba-b516-e153557281a2">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="57a5cf22-f7a5-4b4f-894f-2d279132da9a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="73f4872b-e650-49f7-b73b-1ee1d206c465">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>Status_Czlonkostwa</ColumnID>
           </Source>
@@ -220,14 +221,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="d441f99a-20f4-46d6-878f-c2f157b999fe">
+    <Attribute dwd:design-time-name="abd5c97f-0723-4072-b8b8-04f3ff114ba7">
       <ID>Kategoria Wiekowa</ID>
       <Name>Kategoria Wiekowa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2f95769a-519f-47f5-8375-c4a39a6b86c5">
+        <KeyColumn dwd:design-time-name="0389b90a-2a1a-4a99-96c7-7b6e6e04ab31">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2483a4c9-061a-4d86-9b50-cbade924ea85">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="38ca07fc-854b-42d9-9722-bb58e4547a6b">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>Kategoria_Wiekowa</ColumnID>
           </Source>
@@ -236,13 +237,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="67e7db3c-0a3f-4b07-97f3-e2bd1a74a817">
+    <Attribute dwd:design-time-name="8a0563fd-8e3c-476b-a61d-0e98c076730d">
       <ID>Staz Czlonkostwa</ID>
       <Name>Staz Czlonkostwa</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="124a4d47-a6ae-4d4a-9084-5bbde38d0e94">
+        <KeyColumn dwd:design-time-name="137e785f-39b4-40ad-a8e6-244517d36625">
           <DataType>WChar</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b9e5241d-62d1-44cf-bf20-aca88b21e0dd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="af2d35ee-74d5-49cc-b4f7-623a12eb4ad5">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>Staz_Czlonkostwa</ColumnID>
           </Source>
@@ -251,13 +252,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="439a49ee-112f-45b5-852e-e4ae7cb3500c">
+    <Attribute dwd:design-time-name="156df5ed-167a-4811-bc32-e2ef53ea1ec3">
       <ID>Is Current</ID>
       <Name>Is Current</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="56dfff58-5a45-40b3-b859-c71a8119ac2c">
+        <KeyColumn dwd:design-time-name="1cee1309-d405-41ca-be70-e23e78292e78">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7bb57609-d6a5-4097-830b-4554fc19ccf8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="626d5fb7-9e9e-4397-9d52-0187dd04c17c">
             <TableID>dbo_Gracz</TableID>
             <ColumnID>IsCurrent</ColumnID>
           </Source>

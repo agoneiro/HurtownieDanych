@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="dbb650f6-5fbb-4d7d-86c2-93f49495e717" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="848855c8-33c2-4f89-a6f8-41819bbb2f3a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Promocja</ID>
   <Name>Promocja</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -68,39 +68,40 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="721627ff-9ab3-438c-9c3e-772f751365cd">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="dbb76473-75ee-4b65-b41c-4fbaa10a4781">
     <DataSourceViewID>Casino Data Warehouse</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="a7ba30ea-e9ae-4604-8542-9bba3e30d464">
+  <ErrorConfiguration dwd:design-time-name="05585c7a-b01c-4f7d-b281-e7b0036cab83">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="1fb1b170-a9b6-48e8-a1e6-eb21b884973e">
+    <Attribute dwd:design-time-name="3fd6044f-6382-4e66-8c6c-547e9e3f8865">
       <ID>ID Promocji</ID>
       <Name>ID Promocji</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>20</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="60ce203e-dec8-4efb-8b6c-0576ff90414b">
+        <KeyColumn dwd:design-time-name="cba5a757-c02b-4769-8bcb-9630a76a66be">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3985e017-e580-4189-ac70-ffc25733cd3d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="07c43fe6-6c2b-4bc1-a159-373594d0d334">
             <TableID>dbo_Promocja</TableID>
             <ColumnID>ID_promocji</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="82257b46-da74-4a97-b6e6-5e6e9571ccb5">
+        <AttributeRelationship dwd:design-time-name="75785303-3e21-4dd0-b803-a18fbf9cdab1">
           <AttributeID>Typ Promocji</AttributeID>
           <Name>Typ Promocji</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="71124d13-7d84-47a6-b5b7-94c822d801f6">
+        <AttributeRelationship dwd:design-time-name="a1f06181-359d-4d55-850a-36642018242d">
           <AttributeID>Czy Aktywna</AttributeID>
           <Name>Czy Aktywna</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="0d0b2870-79da-44ff-99f9-ec8ea54adb69">
+        <AttributeRelationship dwd:design-time-name="afd4bb61-7d23-44f5-8bd5-3fd1d775091f">
           <AttributeID>BK Promocji</AttributeID>
           <Name>BK Promocji</Name>
         </AttributeRelationship>
@@ -109,14 +110,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="56a3fb11-fae2-4e60-999e-33c9d4fbc820">
+    <Attribute dwd:design-time-name="030081da-bab5-4258-82b7-62c91eb9d3e8">
       <ID>Typ Promocji</ID>
       <Name>Typ Promocji</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="70f48661-57c0-43cb-8085-2dd11dcb8afd">
+        <KeyColumn dwd:design-time-name="6d3f5b46-2265-4394-b305-a52b1ffafd6a">
           <DataType>WChar</DataType>
           <DataSize>150</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b537ece4-bf73-41a4-95bc-460710d428a0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e03599ff-b60b-4fe0-9ebb-fa01240b2125">
             <TableID>dbo_Promocja</TableID>
             <ColumnID>Typ_promocji</ColumnID>
           </Source>
@@ -125,13 +126,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="a3bd034c-3a53-488a-bb80-b8e2eed15e31">
+    <Attribute dwd:design-time-name="3e4503a2-08c5-41ab-a5a0-d1a987f63269">
       <ID>Czy Aktywna</ID>
       <Name>Czy Aktywna</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9b5530b2-8b90-4693-924c-0cbd3661bf09">
+        <KeyColumn dwd:design-time-name="2c20f172-dda0-476d-b40b-4ce247960ee6">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="49e3262d-a08b-45e5-8b86-35018bef0d1a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2c42a46-363b-4042-a7a8-d7cf498882f1">
             <TableID>dbo_Promocja</TableID>
             <ColumnID>Czy_aktywna</ColumnID>
           </Source>
@@ -140,13 +141,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="fc312942-7d2f-4829-bcd2-cb05cf888c0e">
+    <Attribute dwd:design-time-name="95c9914c-260e-4da1-b358-931f1a3d5778">
       <ID>BK Promocji</ID>
       <Name>BK Promocji</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6c9870e8-3342-43a2-ab23-0bcda4821931">
+        <KeyColumn dwd:design-time-name="3011ea0b-b69b-4852-b745-2a622ade219c">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5075aab3-7fee-4bef-b753-f08c2b1f28ca">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b89cbbe2-a53a-408e-9840-073a13d82e8c">
             <TableID>dbo_Promocja</TableID>
             <ColumnID>BK_Promocji</ColumnID>
           </Source>
